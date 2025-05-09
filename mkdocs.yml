@@ -1,5 +1,8 @@
 site_name: My Portfolio
-site_url: https://sitename.example
+site_description: A python portfolio for Noah Portman
+site_author: noportman
+site_url: https://noportman.github.io/portfolio
+repo_url: https://github.com/noportman/portfolio
 theme:
   name: material
   font: 
