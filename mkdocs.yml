@@ -73,10 +73,9 @@ extra:
 copyright: Copyright &copy; 2025 Noah Portman
 
 nav:
-  - Home: home.md
-  - Mkdocs: index.md
-  - Tabs: code-tabs.md
+  - Intro: index.md
   - Examples:
+      - code-tabs.md
       - examples/patient_scheduling.ipynb
 
       
