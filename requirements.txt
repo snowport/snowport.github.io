@@ -4,4 +4,4 @@ pandas
 pydot
 scikit-learn
 scipy
-tensorflow==2.13.0
+tensorflow
