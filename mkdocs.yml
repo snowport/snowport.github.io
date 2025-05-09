@@ -50,10 +50,10 @@ markdown_extensions:
 plugins:
     - search
     - mkdocstrings
-    # - git-revision-date
-    # - git-revision-date-localized:
-    #       enable_creation_date: true
-    #       type: timeago
+    - git-revision-date
+    - git-revision-date-localized:
+          enable_creation_date: true
+          type: timeago
     # - pdf-export
     - mkdocs-jupyter:
           include_source: True
