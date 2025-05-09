@@ -1,3 +1,7 @@
-numpy
-scipy
 matplotlib
+numpy
+pandas
+pydot
+scikit-learn
+scipy
+tensorflow

@@ -5,7 +5,7 @@ site_url: https://noportman.github.io/portfolio
 repo_url: https://github.com/noportman/portfolio
 theme:
   name: material
-  font: 
+  font:
     text: Roboto
     # code: Regular
   icon:
@@ -14,10 +14,10 @@ theme:
   # icon:
   features:
     - navigation.footer
-  palette: 
+  palette:
     # Dark Mode
     - scheme: slate
-      toggle: 
+      toggle:
         icon: material/toggle-switch
         name: Dark mode
       primary: indigo
@@ -25,7 +25,7 @@ theme:
 
     # Light Mode
     - scheme: default
-      toggle: 
+      toggle:
         icon: material/toggle-switch
         name: Light mode
       primary: indigo
@@ -77,5 +77,5 @@ nav:
   - Examples:
       - code-tabs.md
       - examples/patient_scheduling.ipynb
+      - examples/predicting_abnormal_scans.ipynb
 
-      
