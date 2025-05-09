@@ -1,0 +1,56 @@
+site_name: My Portfolio
+site_url: https://sitename.example
+theme:
+  name: material
+  font: 
+    text: Roboto
+    # code: Regular
+  icon:
+    logo: fontawesome/solid/p
+  # favicon:
+  # icon:
+  features:
+    - navigation.footer
+  palette: 
+    # Dark Mode
+    - scheme: slate
+      toggle: 
+        icon: material/toggle-switch
+        name: Dark mode
+      primary: indigo
+      accent: indigo
+
+    # Light Mode
+    - scheme: default
+      toggle: 
+        icon: material/toggle-switch
+        name: Light mode
+      primary: indigo
+      accent: indigo
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.inlinehilite:
+  - pymdownx.snippets:
+  - pymdownx.superfences:
+  - pymdownx.tabbed:
+      alternate_style: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/noportman
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/feed/
+
+copyright: Copyright &copy; 2025 Noah Portman
+
+      
