@@ -75,12 +75,12 @@ copyright: Copyright &copy; 2025 Noah Portman
 nav:
   - Welcome: index.md
   - CV: about.md
-  - MIT xPRO:
+  - Examples:
       - Overview: intro.md
       - Code Tabs: code-tabs.md
-      - Patient Scheduling: MIT_xPRO/patient_scheduling.ipynb
-      - Predicting Abnormal Scans: MIT_xPRO/binary_classification.md
-      - Image Classification: MIT_xPRO/image_classification.md
-      - Statistical Modeling: MIT_xPRO/prescriptive_model.md
-      - Predictive Modeling: MIT_xPRO/XGBoost.md
+      - Patient Scheduling: examples/patient_scheduling.ipynb
+      - Predicting Abnormal Scans: examples/binary_classification.md
+      - Image Classification: examples/image_classification.md
+      - Statistical Modeling: examples/prescriptive_model.md
+      - Predictive Modeling: examples/XGBoost.md
 

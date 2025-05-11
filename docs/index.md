@@ -1,6 +1,8 @@
-!!! note "Under Development"
+!!! warning "Under Development"
 
-    This site is going to be updated. Stay tuned!
+    This site is still being updated.
+
+    Stay tuned!
 
 Hi! :wave:
 
