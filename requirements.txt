@@ -1,6 +1,6 @@
-os
 matplotlib
 numpy
+os
 pandas
 pydot
 scikit-learn
