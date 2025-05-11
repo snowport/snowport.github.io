@@ -1,4 +1,4 @@
-site_name: My Portfolio
+site_name: Portfolio Site
 site_description: A python portfolio for Noah Portman
 site_author: noportman
 site_url: https://noportman.github.io/portfolio
@@ -68,15 +68,19 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/noportman
     - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/feed/
+      link: https://www.linkedin.com/in/noah-portman/
 
 copyright: Copyright &copy; 2025 Noah Portman
 
 nav:
-  - Intro: index.md
-  - Examples:
-      - code-tabs.md
-      - examples/patient_scheduling.ipynb
-      # - examples/predicting_abnormal_scans.ipynb
-      # - examples/image_classification.ipynb
+  - Welcome: index.md
+  - CV: about.md
+  - MIT xPRO:
+      - Overview: intro.md
+      - Code Tabs: code-tabs.md
+      - Patient Scheduling: MIT_xPRO/patient_scheduling.ipynb
+      - Predicting Abnormal Scans: MIT_xPRO/binary_classification.md
+      - Image Classification: MIT_xPRO/image_classification.md
+      - Statistical Modeling: MIT_xPRO/prescriptive_model.md
+      - Predictive Modeling: MIT_xPRO/XGBoost.md
 

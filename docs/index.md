@@ -1,24 +1,21 @@
-!!! note "Welcome!"
+!!! note "Under Development"
 
-    This is my Portfolio Site.
+    This site is going to be updated. Stay tuned!
 
+Hi! :wave:
 
-??? warning "Under Development"
+I'm a **data analyst** and **sustainability scientist** with a robust background in
+environmental engineering, sustainability science, and advanced analytics.
+My passion lies in transforming complex datasets into actionable insights,
+enabling organizations to align growth with environmental stewardship.
 
-    This site is going to be changed.
+With hands-on experience designing scalable processes, resolving data
+inconsistencies, and uncovering critical trends, I excel in driving efficiency
+and optimizing outcomes in high-impact settings.
 
-# Welcome to My Portfolio
+​Whether streamlining operations, informing sustainability strategies, or
+sparking innovation, I bring data to the forefront of decision-making.
+Committed to creating meaningful change, I'm dedicated to applying analytics
+to help industries operate sustainably and innovate strategically.
 
-Welcome to my portfolio! This repository showcases projects and insights from the MIT xPRO Professional Certificate in Data Science and Analytics program.
-
-## About the Program
-The MIT xPRO Professional Certificate in Data Science and Analytics is a rigorous, industry-aligned curriculum designed to develop advanced skills in:
-
-  - *Statistical Analysis*: Leveraging data to identify trends, correlations, and actionable insights.
-  - *Machine Learning*: Building predictive models and applying cutting-edge algorithms to solve complex problems.
-  - *Data Visualization*: Communicating data-driven insights effectively using compelling visual narratives.
-  - *Programming and Tools*: Proficiency in Python, R, SQL, and other data-centric tools to manipulate, analyze, and present data.
-
-This program emphasized hands-on learning and real-world applications, culminating in projects that address current challenges across industries.
-
-You can learn more about MIT xPRO courses and programs [here](https://xpro.mit.edu/).
+Let's connect and collaborate on impactful, data-driven solutions.
