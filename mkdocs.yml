@@ -78,7 +78,7 @@ nav:
   - Examples:
       - Overview: intro.md
       - Code Tabs: code-tabs.md
-      - Patient Scheduling: examples/patient_scheduling.ipynb
+      - Patient Scheduling: examples/patient_scheduling.md
       - Predicting Abnormal Scans: examples/binary_classification.md
       - Image Classification: examples/image_classification.md
       - Statistical Modeling: examples/prescriptive_model.md
