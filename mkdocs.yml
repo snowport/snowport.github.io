@@ -77,6 +77,6 @@ nav:
   - Examples:
       - code-tabs.md
       - examples/patient_scheduling.ipynb
-      - examples/predicting_abnormal_scans.ipynb
-      - examples/image_classification.ipynb
+      # - examples/predicting_abnormal_scans.ipynb
+      # - examples/image_classification.ipynb
 
