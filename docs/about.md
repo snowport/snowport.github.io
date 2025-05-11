@@ -3,29 +3,29 @@
 
 ## **Skills**
 
-### Programming Languages & Data Analysis
+### 1. Programming Languages & Data Analysis
 
 * Proficient in `Python`, `R`, `SQL`, and `MATLAB`, with a strong ability to conduct
 complex data analysis, statistical modeling, and predictive analytics
 
-### Geospatial Analysis
+### 2. Geospatial Analysis
 
 * Skilled in Geographic Information Systems (GIS), `Google Earth Engine`, and
 `CADD`, enabling advanced analysis of spatial data for environmental assessments
 and planning
 
-### Data Visualization & Reporting
+### 3. Data Visualization & Reporting
 
 * Experienced in using `Tableau`, `Microsoft 365` (Excel, Power BI), and `Snowflake`
 for creating compelling data visualizations, dashboards, and reports to
 communicate insights effectively
 
-### Cloud Computing & Database Management
+### 4. Cloud Computing & Database Management
 
 * Competent in AWS Cloud services, facilitating the management of large
 datasets, cloud computing tasks, and ensuring data security and scalability
 
-### Software & Development Tools
+### 5. Software & Development Tools
 
 * Adept in using integrated development environments (IDEs) and collaboration
 tools, enhancing productivity and supporting team-based software development
@@ -33,7 +33,7 @@ projects
 
 ## **Experience**
 
-### MIT xPRO - Professional Certificate in Data Science and Analytics
+### 1. MIT xPRO - Professional Certificate in Data Science and Analytics
 
 * Completed an intensive program designed to enhance data science skills,
 focusing on analytics and machine learning applications.
@@ -47,7 +47,7 @@ such as Python, enabling the analysis and interpretation of complex datasets.
 
 *Learn more: [MIT xPRO](https://xpro.mit.edu/)*
 
-### Sermonix Pharmaceuticals - Data Analysis and BD Associate
+### 2. Sermonix Pharmaceuticals - Data Analysis and BD Associate
 
 * Developed patient databases for ongoing clinical trials, progress reports, and data visualizations.
 * Increased efficiencies by recognizing opportunities for process improvement and new system integration.
@@ -56,7 +56,7 @@ databases.​
 
 *Learn more: [Sermonix Pharmaceuticals](https://sermonixpharma.com/)*
 
-### Climatebase Fellowship - Cohort 3 Fellow
+### 3. Climatebase Fellowship - Cohort 3 Fellow
 
 * Selected for a prestigious fellowship, enhancing expertise in climate policy,
 strategic environmental planning, and innovative solution development.
@@ -74,7 +74,7 @@ opportunities in the field.
 
 *Learn more: [Climatebase Fellowship](https://climatebase.org/fellowship)*
 
-### N-Drip - Sustainability Associate
+### 4. N-Drip - Sustainability Associate
 
 * Engaged with universities, think tanks, and trade associations as to the
 benefits of the technology.
@@ -85,7 +85,7 @@ and methane reductions.
 
 *Learn more: [N-Drip](https://ndrip.com/)*
 
-### Columbia University - Project Manager, SuSci Integrative Capstone
+### 5. Columbia University - Project Manager, SuSci Integrative Capstone
 
 * Led study to quantify air pollution on subway platforms across New York City
 boroughs by deploying handheld particulate matter air sampling devices.
@@ -93,7 +93,7 @@ boroughs by deploying handheld particulate matter air sampling devices.
 analysis, in addition to the final report, which was presented at the
 International Society of Exposure Science conference in October 2021.
 
-### Diagnostic Lab Corporation - Sustainability Associate
+### 6. Diagnostic Lab Corporation - Sustainability Associate
 
 * Designed UI/UX for a drinking water analysis testing kit and API linking
 consumers with analytical laboratories.
@@ -102,7 +102,7 @@ sustainability best practices regarding water and the environment.
 * Prepared client presentation pitch decks and proposals using analytics and strong
 visual communication skills.
 
-### Gresham Smith - Environmental Engineer
+### 7. Gresham Smith - Environmental Engineer
 
 * Performed EMS and EHS inspections to help clients meet compliance and achieve
 sustainability targets.
@@ -111,7 +111,7 @@ sustainability targets.
 
 *Learn more: [Gresham Smith](https://www.greshamsmith.com/)*
 
-### eggXYt - Business Development Associate
+### 8. eggXYt - Business Development Associate
 
 * Showcased product demo as Startup Battlefield finalist at TechCrunch Disrupt
 San Francisco.
@@ -122,7 +122,7 @@ and compendium on AgTech investment space.
 
 *Learn more: [eggXYt](https://www.eggxyt.com/)*
 
-### Zuckerberg Institute for Water Research - Hydrology Lab Assistant
+### 9. Zuckerberg Institute for Water Research - Hydrology Lab Assistant
 
 * Increased proficiency using centrifuge, microplate photometers, and other
 hydrology and microbiology lab equipment.
@@ -130,18 +130,18 @@ hydrology and microbiology lab equipment.
 
 ## **Education**
 
-* ### Columbia University
-MS, Sustainability Science
+* Columbia University
+  * MS, Sustainability Science
 
-* ### The Ohio State University
-BS, Environmental Engineering
+* The Ohio State University
+  * BS, Environmental Engineering
 
 ## **Samples**
 
-1. [Accounting for Natural Capital - Breaking the Carbon Budget](assets/Breaking_the_Carbon_Budget.pdf)
+1. [Accounting for Natural Capital - Breaking the Carbon Budget](assets/samples/Breaking_the_Carbon_Budget.pdf)
 
-2. [Study on NYC Subway System Particulate Matter Concentration](assets/Capstone_Final_Draft_Fall_2021.pdf)
+2. [Study on NYC Subway System Particulate Matter Concentration](assets/samples/Capstone_Final_Draft_Fall_2021.pdf)
 
-3. [Case Study on Coastal Wetland Eutrophication](assets/Coastal_Wetland_Eutrophication.pdf)
+3. [Case Study on Coastal Wetland Eutrophication](assets/samples/Coastal_Wetland_Eutrophication.pdf)
 
-4. [Water Confidence Index](assets/Water_Confidence_Index.pdf)
+4. [Water Confidence Index](assets/samples/Water_Confidence_Index.pdf)
