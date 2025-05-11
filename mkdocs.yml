@@ -1,5 +1,5 @@
 site_name: Portfolio Site
-site_description: A python portfolio for Noah Portman
+site_description: A python portfolio
 site_author: noportman
 site_url: https://noportman.github.io/portfolio
 repo_url: https://github.com/noportman/portfolio
@@ -58,7 +58,7 @@ plugins:
     - mkdocs-jupyter:
           include_source: True
           ignore_h1_titles: True
-          execute: True
+          execute: False
           allow_errors: false
           ignore: ["conf.py"]
           execute_ignore: ["*ignore.ipynb"]

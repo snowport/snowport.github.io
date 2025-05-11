@@ -1,9 +1,5 @@
 # Binary Classification on Tabular Data - Predicting Abnormal ECG Scans
 
-
-
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/noportman/mitxpro/blob/main/binary_classification.ipynb)
-
 ## Introduction
 
 In this notebook, you will train an autoencoder to detect anomalies on the ECG5000 dataset. This dataset contains 5,000 Electrocardiograms, each with 140 data points. You will use a simplified version of the dataset, where each example has been labeled either 0 (corresponding to an abnormal rhythm), or 1 (corresponding to a normal rhythm). You are interested in identifying the abnormal rhythms.
@@ -474,7 +470,7 @@ print(target_metrics)
     1.0    0.584034
     0.0    0.415966
     Name: proportion, dtype: float64
-    
+
 
 ###### Extract the dependent variable
 
@@ -514,14 +510,14 @@ print(means)
     2     -2.486585
     3     -3.109836
     4     -3.158222
-             ...   
+             ...
     135   -0.771955
     136   -0.850764
     137   -0.661878
     138   -0.508294
     139   -0.720762
     Length: 140, dtype: float64
-    
+
 
 Let's normalize the train and test dataframes with these means and standard deviations.
 
@@ -1039,9 +1035,9 @@ keras.utils.plot_model(model, show_shapes=True)
 
 
 
-    
+
 ![png](binary_classification_files/binary_classification_33_0.png)
-    
+
 
 
 
@@ -1077,208 +1073,6 @@ history = model.fit(X_train,
                     validation_split=0.2)
 ```
 
-    Epoch 1/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m2s[0m 5ms/step - accuracy: 0.8841 - loss: 0.2819 - val_accuracy: 0.9912 - val_loss: 0.0561
-    Epoch 2/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 3ms/step - accuracy: 0.9816 - loss: 0.0530 - val_accuracy: 0.9912 - val_loss: 0.0463
-    Epoch 3/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 3ms/step - accuracy: 0.9858 - loss: 0.0388 - val_accuracy: 0.9925 - val_loss: 0.0436
-    Epoch 4/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 3ms/step - accuracy: 0.9887 - loss: 0.0317 - val_accuracy: 0.9925 - val_loss: 0.0435
-    Epoch 5/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 3ms/step - accuracy: 0.9896 - loss: 0.0272 - val_accuracy: 0.9925 - val_loss: 0.0432
-    Epoch 6/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 3ms/step - accuracy: 0.9909 - loss: 0.0241 - val_accuracy: 0.9925 - val_loss: 0.0437
-    Epoch 7/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 3ms/step - accuracy: 0.9944 - loss: 0.0215 - val_accuracy: 0.9925 - val_loss: 0.0433
-    Epoch 8/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 3ms/step - accuracy: 0.9967 - loss: 0.0198 - val_accuracy: 0.9925 - val_loss: 0.0431
-    Epoch 9/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 3ms/step - accuracy: 0.9971 - loss: 0.0181 - val_accuracy: 0.9925 - val_loss: 0.0431
-    Epoch 10/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 3ms/step - accuracy: 0.9974 - loss: 0.0168 - val_accuracy: 0.9912 - val_loss: 0.0430
-    Epoch 11/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 3ms/step - accuracy: 0.9976 - loss: 0.0156 - val_accuracy: 0.9912 - val_loss: 0.0429
-    Epoch 12/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 3ms/step - accuracy: 0.9977 - loss: 0.0146 - val_accuracy: 0.9912 - val_loss: 0.0425
-    Epoch 13/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 3ms/step - accuracy: 0.9977 - loss: 0.0136 - val_accuracy: 0.9912 - val_loss: 0.0426
-    Epoch 14/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 3ms/step - accuracy: 0.9977 - loss: 0.0127 - val_accuracy: 0.9912 - val_loss: 0.0429
-    Epoch 15/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 3ms/step - accuracy: 0.9977 - loss: 0.0119 - val_accuracy: 0.9912 - val_loss: 0.0431
-    Epoch 16/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 3ms/step - accuracy: 0.9977 - loss: 0.0113 - val_accuracy: 0.9912 - val_loss: 0.0435
-    Epoch 17/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 3ms/step - accuracy: 0.9979 - loss: 0.0106 - val_accuracy: 0.9912 - val_loss: 0.0439
-    Epoch 18/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 3ms/step - accuracy: 0.9979 - loss: 0.0099 - val_accuracy: 0.9912 - val_loss: 0.0444
-    Epoch 19/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 3ms/step - accuracy: 0.9979 - loss: 0.0094 - val_accuracy: 0.9912 - val_loss: 0.0448
-    Epoch 20/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 5ms/step - accuracy: 0.9979 - loss: 0.0088 - val_accuracy: 0.9912 - val_loss: 0.0452
-    Epoch 21/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 4ms/step - accuracy: 0.9979 - loss: 0.0083 - val_accuracy: 0.9900 - val_loss: 0.0460
-    Epoch 22/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 5ms/step - accuracy: 0.9979 - loss: 0.0079 - val_accuracy: 0.9887 - val_loss: 0.0467
-    Epoch 23/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 5ms/step - accuracy: 0.9979 - loss: 0.0074 - val_accuracy: 0.9887 - val_loss: 0.0473
-    Epoch 24/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 3ms/step - accuracy: 0.9979 - loss: 0.0071 - val_accuracy: 0.9887 - val_loss: 0.0482
-    Epoch 25/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 3ms/step - accuracy: 0.9979 - loss: 0.0067 - val_accuracy: 0.9887 - val_loss: 0.0491
-    Epoch 26/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 3ms/step - accuracy: 0.9979 - loss: 0.0064 - val_accuracy: 0.9887 - val_loss: 0.0493
-    Epoch 27/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 3ms/step - accuracy: 0.9979 - loss: 0.0061 - val_accuracy: 0.9887 - val_loss: 0.0500
-    Epoch 28/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 3ms/step - accuracy: 0.9986 - loss: 0.0058 - val_accuracy: 0.9887 - val_loss: 0.0505
-    Epoch 29/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 3ms/step - accuracy: 0.9986 - loss: 0.0055 - val_accuracy: 0.9887 - val_loss: 0.0508
-    Epoch 30/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 3ms/step - accuracy: 0.9986 - loss: 0.0053 - val_accuracy: 0.9887 - val_loss: 0.0512
-    Epoch 31/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 3ms/step - accuracy: 0.9986 - loss: 0.0050 - val_accuracy: 0.9887 - val_loss: 0.0516
-    Epoch 32/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 3ms/step - accuracy: 0.9986 - loss: 0.0047 - val_accuracy: 0.9887 - val_loss: 0.0519
-    Epoch 33/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 3ms/step - accuracy: 0.9986 - loss: 0.0045 - val_accuracy: 0.9887 - val_loss: 0.0519
-    Epoch 34/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 3ms/step - accuracy: 0.9986 - loss: 0.0043 - val_accuracy: 0.9887 - val_loss: 0.0521
-    Epoch 35/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 3ms/step - accuracy: 0.9986 - loss: 0.0040 - val_accuracy: 0.9887 - val_loss: 0.0528
-    Epoch 36/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 3ms/step - accuracy: 0.9986 - loss: 0.0039 - val_accuracy: 0.9887 - val_loss: 0.0531
-    Epoch 37/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 3ms/step - accuracy: 0.9986 - loss: 0.0037 - val_accuracy: 0.9887 - val_loss: 0.0533
-    Epoch 38/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 3ms/step - accuracy: 0.9989 - loss: 0.0035 - val_accuracy: 0.9887 - val_loss: 0.0537
-    Epoch 39/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 3ms/step - accuracy: 0.9996 - loss: 0.0033 - val_accuracy: 0.9887 - val_loss: 0.0539
-    Epoch 40/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 3ms/step - accuracy: 0.9996 - loss: 0.0032 - val_accuracy: 0.9887 - val_loss: 0.0543
-    Epoch 41/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 3ms/step - accuracy: 0.9996 - loss: 0.0030 - val_accuracy: 0.9887 - val_loss: 0.0545
-    Epoch 42/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 3ms/step - accuracy: 0.9996 - loss: 0.0029 - val_accuracy: 0.9887 - val_loss: 0.0545
-    Epoch 43/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 3ms/step - accuracy: 0.9996 - loss: 0.0027 - val_accuracy: 0.9875 - val_loss: 0.0552
-    Epoch 44/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 3ms/step - accuracy: 0.9996 - loss: 0.0025 - val_accuracy: 0.9875 - val_loss: 0.0561
-    Epoch 45/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 3ms/step - accuracy: 0.9996 - loss: 0.0024 - val_accuracy: 0.9875 - val_loss: 0.0563
-    Epoch 46/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 5ms/step - accuracy: 0.9996 - loss: 0.0023 - val_accuracy: 0.9875 - val_loss: 0.0562
-    Epoch 47/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 5ms/step - accuracy: 0.9999 - loss: 0.0023 - val_accuracy: 0.9875 - val_loss: 0.0570
-    Epoch 48/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 5ms/step - accuracy: 0.9999 - loss: 0.0021 - val_accuracy: 0.9887 - val_loss: 0.0572
-    Epoch 49/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 6ms/step - accuracy: 0.9999 - loss: 0.0020 - val_accuracy: 0.9875 - val_loss: 0.0579
-    Epoch 50/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 3ms/step - accuracy: 0.9999 - loss: 0.0019 - val_accuracy: 0.9862 - val_loss: 0.0580
-    Epoch 51/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 3ms/step - accuracy: 0.9999 - loss: 0.0018 - val_accuracy: 0.9862 - val_loss: 0.0592
-    Epoch 52/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 3ms/step - accuracy: 0.9999 - loss: 0.0017 - val_accuracy: 0.9862 - val_loss: 0.0598
-    Epoch 53/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 3ms/step - accuracy: 0.9999 - loss: 0.0017 - val_accuracy: 0.9850 - val_loss: 0.0605
-    Epoch 54/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 3ms/step - accuracy: 0.9999 - loss: 0.0016 - val_accuracy: 0.9850 - val_loss: 0.0615
-    Epoch 55/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 3ms/step - accuracy: 0.9999 - loss: 0.0015 - val_accuracy: 0.9862 - val_loss: 0.0615
-    Epoch 56/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 3ms/step - accuracy: 0.9999 - loss: 0.0014 - val_accuracy: 0.9862 - val_loss: 0.0623
-    Epoch 57/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 3ms/step - accuracy: 0.9999 - loss: 0.0014 - val_accuracy: 0.9862 - val_loss: 0.0625
-    Epoch 58/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 3ms/step - accuracy: 0.9999 - loss: 0.0013 - val_accuracy: 0.9850 - val_loss: 0.0636
-    Epoch 59/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 3ms/step - accuracy: 0.9999 - loss: 0.0013 - val_accuracy: 0.9862 - val_loss: 0.0644
-    Epoch 60/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 3ms/step - accuracy: 0.9999 - loss: 0.0012 - val_accuracy: 0.9850 - val_loss: 0.0660
-    Epoch 61/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 3ms/step - accuracy: 0.9999 - loss: 0.0011 - val_accuracy: 0.9862 - val_loss: 0.0655
-    Epoch 62/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 3ms/step - accuracy: 0.9999 - loss: 0.0011 - val_accuracy: 0.9862 - val_loss: 0.0667
-    Epoch 63/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 3ms/step - accuracy: 0.9999 - loss: 0.0010 - val_accuracy: 0.9850 - val_loss: 0.0676
-    Epoch 64/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 3ms/step - accuracy: 0.9999 - loss: 9.6561e-04 - val_accuracy: 0.9850 - val_loss: 0.0695
-    Epoch 65/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 3ms/step - accuracy: 0.9999 - loss: 9.2211e-04 - val_accuracy: 0.9875 - val_loss: 0.0695
-    Epoch 66/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 3ms/step - accuracy: 0.9999 - loss: 9.1201e-04 - val_accuracy: 0.9862 - val_loss: 0.0704
-    Epoch 67/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 3ms/step - accuracy: 0.9999 - loss: 8.3038e-04 - val_accuracy: 0.9862 - val_loss: 0.0700
-    Epoch 68/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 3ms/step - accuracy: 0.9999 - loss: 7.8586e-04 - val_accuracy: 0.9850 - val_loss: 0.0710
-    Epoch 69/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 4ms/step - accuracy: 0.9999 - loss: 7.3477e-04 - val_accuracy: 0.9875 - val_loss: 0.0707
-    Epoch 70/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 4ms/step - accuracy: 0.9999 - loss: 7.1245e-04 - val_accuracy: 0.9875 - val_loss: 0.0724
-    Epoch 71/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 5ms/step - accuracy: 0.9999 - loss: 7.0830e-04 - val_accuracy: 0.9862 - val_loss: 0.0800
-    Epoch 72/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 5ms/step - accuracy: 0.9999 - loss: 8.0130e-04 - val_accuracy: 0.9850 - val_loss: 0.0827
-    Epoch 73/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 5ms/step - accuracy: 0.9965 - loss: 0.0171 - val_accuracy: 0.9862 - val_loss: 0.0853
-    Epoch 74/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 3ms/step - accuracy: 0.9995 - loss: 0.0017 - val_accuracy: 0.9850 - val_loss: 0.1056
-    Epoch 75/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 3ms/step - accuracy: 0.9974 - loss: 0.0080 - val_accuracy: 0.9887 - val_loss: 0.0868
-    Epoch 76/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 3ms/step - accuracy: 0.9999 - loss: 8.7967e-04 - val_accuracy: 0.9887 - val_loss: 0.0859
-    Epoch 77/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 3ms/step - accuracy: 0.9999 - loss: 6.1155e-04 - val_accuracy: 0.9875 - val_loss: 0.0865
-    Epoch 78/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 3ms/step - accuracy: 0.9999 - loss: 5.6920e-04 - val_accuracy: 0.9875 - val_loss: 0.0862
-    Epoch 79/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 3ms/step - accuracy: 0.9999 - loss: 5.5682e-04 - val_accuracy: 0.9875 - val_loss: 0.0876
-    Epoch 80/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 3ms/step - accuracy: 0.9999 - loss: 5.2565e-04 - val_accuracy: 0.9862 - val_loss: 0.0885
-    Epoch 81/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 3ms/step - accuracy: 0.9999 - loss: 5.2217e-04 - val_accuracy: 0.9862 - val_loss: 0.0883
-    Epoch 82/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 3ms/step - accuracy: 0.9999 - loss: 4.9728e-04 - val_accuracy: 0.9862 - val_loss: 0.0893
-    Epoch 83/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 3ms/step - accuracy: 0.9999 - loss: 4.8717e-04 - val_accuracy: 0.9862 - val_loss: 0.0894
-    Epoch 84/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 3ms/step - accuracy: 1.0000 - loss: 4.7510e-04 - val_accuracy: 0.9862 - val_loss: 0.0906
-    Epoch 85/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 3ms/step - accuracy: 1.0000 - loss: 4.6204e-04 - val_accuracy: 0.9862 - val_loss: 0.0901
-    Epoch 86/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 3ms/step - accuracy: 1.0000 - loss: 4.4221e-04 - val_accuracy: 0.9862 - val_loss: 0.0911
-    Epoch 87/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 3ms/step - accuracy: 1.0000 - loss: 4.3202e-04 - val_accuracy: 0.9862 - val_loss: 0.0911
-    Epoch 88/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 3ms/step - accuracy: 1.0000 - loss: 4.2154e-04 - val_accuracy: 0.9862 - val_loss: 0.0922
-    Epoch 89/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 3ms/step - accuracy: 1.0000 - loss: 4.1013e-04 - val_accuracy: 0.9862 - val_loss: 0.0919
-    Epoch 90/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 3ms/step - accuracy: 1.0000 - loss: 3.9269e-04 - val_accuracy: 0.9862 - val_loss: 0.0929
-    Epoch 91/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 3ms/step - accuracy: 1.0000 - loss: 3.8471e-04 - val_accuracy: 0.9862 - val_loss: 0.0926
-    Epoch 92/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 3ms/step - accuracy: 1.0000 - loss: 3.7520e-04 - val_accuracy: 0.9862 - val_loss: 0.0940
-    Epoch 93/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 3ms/step - accuracy: 1.0000 - loss: 3.6451e-04 - val_accuracy: 0.9862 - val_loss: 0.0936
-    Epoch 94/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 3ms/step - accuracy: 1.0000 - loss: 3.4678e-04 - val_accuracy: 0.9862 - val_loss: 0.0946
-    Epoch 95/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 5ms/step - accuracy: 1.0000 - loss: 3.3999e-04 - val_accuracy: 0.9862 - val_loss: 0.0944
-    Epoch 96/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 5ms/step - accuracy: 1.0000 - loss: 3.3330e-04 - val_accuracy: 0.9862 - val_loss: 0.0960
-    Epoch 97/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 5ms/step - accuracy: 1.0000 - loss: 3.2750e-04 - val_accuracy: 0.9862 - val_loss: 0.0957
-    Epoch 98/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 5ms/step - accuracy: 1.0000 - loss: 3.1690e-04 - val_accuracy: 0.9862 - val_loss: 0.0968
-    Epoch 99/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 3ms/step - accuracy: 1.0000 - loss: 3.0113e-04 - val_accuracy: 0.9862 - val_loss: 0.0963
-    Epoch 100/100
-    [1m100/100[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 3ms/step - accuracy: 1.0000 - loss: 2.9216e-04 - val_accuracy: 0.9862 - val_loss: 0.0974
-    
-
 
 ```python
 history_dict = history.history
@@ -1307,9 +1101,9 @@ plt.show()
 ```
 
 
-    
+
 ![png](binary_classification_files/binary_classification_40_0.png)
-    
+
 
 
 
@@ -1327,9 +1121,9 @@ plt.show()
 ```
 
 
-    
+
 ![png](binary_classification_files/binary_classification_41_0.png)
-    
+
 
 
 ## Evaluate the model
@@ -1345,7 +1139,7 @@ score, acc = model.evaluate(X_test, y_test)
 ```
 
     [1m32/32[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 3ms/step - accuracy: 0.9930 - loss: 0.0454
-    
+
 
 
 ```python
@@ -1413,9 +1207,9 @@ plt.show()
 ```
 
 
-    
+
 ![png](binary_classification_files/binary_classification_45_0.png)
-    
+
 
 
 
@@ -1424,4 +1218,4 @@ print(y_train[row_index])
 ```
 
     0.0
-    
+

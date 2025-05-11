@@ -2,28 +2,14 @@
 
 An end-to-end workflow using NumPy, Pandas, Matplotlib, and XGBoost to evaluate model performance with ROC AUC, accuracy, and regression metrics.
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/noportman/mitxpro/blob/main/files/XGBoost.ipynb)
 
 ## Module Import
 
 
 ```python
+# If need to install dependency
 !pip install xgboost==1.6.1
 ```
-
-    Collecting xgboost==1.6.1
-      Downloading xgboost-1.6.1-py3-none-manylinux2014_x86_64.whl.metadata (1.8 kB)
-    Requirement already satisfied: numpy in /usr/local/lib/python3.11/dist-packages (from xgboost==1.6.1) (2.0.2)
-    Requirement already satisfied: scipy in /usr/local/lib/python3.11/dist-packages (from xgboost==1.6.1) (1.14.1)
-    Downloading xgboost-1.6.1-py3-none-manylinux2014_x86_64.whl (192.9 MB)
-    [2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m192.9/192.9 MB[0m [31m3.6 MB/s[0m eta [36m0:00:00[0m
-    [?25hInstalling collected packages: xgboost
-      Attempting uninstall: xgboost
-        Found existing installation: xgboost 2.1.4
-        Uninstalling xgboost-2.1.4:
-          Successfully uninstalled xgboost-2.1.4
-    Successfully installed xgboost-1.6.1
-    
 
 
 ```python
@@ -62,18 +48,18 @@ df.info()
     <class 'pandas.core.frame.DataFrame'>
     RangeIndex: 9516 entries, 0 to 9515
     Data columns (total 7 columns):
-     #   Column       Non-Null Count  Dtype  
-    ---  ------       --------------  -----  
-     0   default      9516 non-null   int64  
-     1   installment  9516 non-null   int64  
+     #   Column       Non-Null Count  Dtype
+    ---  ------       --------------  -----
+     0   default      9516 non-null   int64
+     1   installment  9516 non-null   int64
      2   log_income   9516 non-null   float64
-     3   fico_score   9516 non-null   int64  
+     3   fico_score   9516 non-null   int64
      4   rev_balance  9516 non-null   float64
-     5   inquiries    9516 non-null   int64  
-     6   records      9516 non-null   int64  
+     5   inquiries    9516 non-null   int64
+     6   records      9516 non-null   int64
     dtypes: float64(2), int64(5)
     memory usage: 520.5 KB
-    
+
 
 
 ```python
@@ -463,7 +449,7 @@ print(X_train.shape, X_test.shape)
 ```
 
     (6661, 6) (2855, 6)
-    
+
 
 
 ```python
@@ -501,7 +487,7 @@ print("ROC-AUC: %.10f%%" % (accuracy_per_roc_auc * 100))
     0:00:11.483223
     Accuracy: 83.4325744308%
     ROC-AUC: 50.0000000000%
-    
+
 
 
 ```python
@@ -518,9 +504,9 @@ xgboost.plot_importance(clf)
 
 
 
-    
+
 ![png](XGBoost_files/XGBoost_15_1.png)
-    
+
 
 
 ## 🔍 Model Interpretation:

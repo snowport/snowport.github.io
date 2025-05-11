@@ -1,7 +1,5 @@
 # Data Cleaning, EDA, and Statistical Modeling Workbook
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/noportman/mitxpro/blob/main/files/prescriptive_model.ipynb)
-
 This notebook walks through a full data analysis pipeline — from raw data ingestion and encoding detection to exploratory data analysis (EDA), statistical modeling, and model performance evaluation. Key tools include `chardet` and `codecs` for encoding detection, `pandas` and `skimpy` for data exploration, `statsmodels` for linear and logistic regression, and `scikit-learn` for evaluation metrics such as confusion matrices and accuracy scores.
 
 
@@ -9,77 +7,6 @@ This notebook walks through a full data analysis pipeline — from raw data inge
 # Install dependencies, if needed
 !pip install skimpy
 ```
-
-    Collecting skimpy
-      Downloading skimpy-0.0.18-py3-none-any.whl.metadata (34 kB)
-    Requirement already satisfied: click>=8.1.7 in /usr/local/lib/python3.11/dist-packages (from skimpy) (8.1.8)
-    Collecting ipykernel>=6.29.5 (from skimpy)
-      Downloading ipykernel-6.29.5-py3-none-any.whl.metadata (6.3 kB)
-    Requirement already satisfied: numpy>=2.0.2 in /usr/local/lib/python3.11/dist-packages (from skimpy) (2.0.2)
-    Requirement already satisfied: pandas-stubs>=2.2.2.240807 in /usr/local/lib/python3.11/dist-packages (from skimpy) (2.2.2.240909)
-    Collecting pandas>=2.2.3 (from skimpy)
-      Downloading pandas-2.2.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (89 kB)
-    [2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m89.9/89.9 kB[0m [31m6.8 MB/s[0m eta [36m0:00:00[0m
-    [?25hRequirement already satisfied: polars>=1.17.1 in /usr/local/lib/python3.11/dist-packages (from skimpy) (1.21.0)
-    Requirement already satisfied: pygments>=2.18.0 in /usr/local/lib/python3.11/dist-packages (from skimpy) (2.18.0)
-    Requirement already satisfied: rich>=13.9.4 in /usr/local/lib/python3.11/dist-packages (from skimpy) (13.9.4)
-    Requirement already satisfied: typeguard>=4.4.1 in /usr/local/lib/python3.11/dist-packages (from skimpy) (4.4.2)
-    Requirement already satisfied: pyarrow>=17.0.0 in /usr/local/lib/python3.11/dist-packages (from skimpy) (18.1.0)
-    Collecting comm>=0.1.1 (from ipykernel>=6.29.5->skimpy)
-      Downloading comm-0.2.2-py3-none-any.whl.metadata (3.7 kB)
-    Requirement already satisfied: debugpy>=1.6.5 in /usr/local/lib/python3.11/dist-packages (from ipykernel>=6.29.5->skimpy) (1.8.0)
-    Requirement already satisfied: ipython>=7.23.1 in /usr/local/lib/python3.11/dist-packages (from ipykernel>=6.29.5->skimpy) (7.34.0)
-    Requirement already satisfied: jupyter-client>=6.1.12 in /usr/local/lib/python3.11/dist-packages (from ipykernel>=6.29.5->skimpy) (6.1.12)
-    Requirement already satisfied: jupyter-core!=5.0.*,>=4.12 in /usr/local/lib/python3.11/dist-packages (from ipykernel>=6.29.5->skimpy) (5.7.2)
-    Requirement already satisfied: matplotlib-inline>=0.1 in /usr/local/lib/python3.11/dist-packages (from ipykernel>=6.29.5->skimpy) (0.1.7)
-    Requirement already satisfied: nest-asyncio in /usr/local/lib/python3.11/dist-packages (from ipykernel>=6.29.5->skimpy) (1.6.0)
-    Requirement already satisfied: packaging in /usr/local/lib/python3.11/dist-packages (from ipykernel>=6.29.5->skimpy) (24.2)
-    Requirement already satisfied: psutil in /usr/local/lib/python3.11/dist-packages (from ipykernel>=6.29.5->skimpy) (5.9.5)
-    Requirement already satisfied: pyzmq>=24 in /usr/local/lib/python3.11/dist-packages (from ipykernel>=6.29.5->skimpy) (24.0.1)
-    Requirement already satisfied: tornado>=6.1 in /usr/local/lib/python3.11/dist-packages (from ipykernel>=6.29.5->skimpy) (6.4.2)
-    Requirement already satisfied: traitlets>=5.4.0 in /usr/local/lib/python3.11/dist-packages (from ipykernel>=6.29.5->skimpy) (5.7.1)
-    Requirement already satisfied: python-dateutil>=2.8.2 in /usr/local/lib/python3.11/dist-packages (from pandas>=2.2.3->skimpy) (2.8.2)
-    Requirement already satisfied: pytz>=2020.1 in /usr/local/lib/python3.11/dist-packages (from pandas>=2.2.3->skimpy) (2025.2)
-    Requirement already satisfied: tzdata>=2022.7 in /usr/local/lib/python3.11/dist-packages (from pandas>=2.2.3->skimpy) (2025.2)
-    Requirement already satisfied: types-pytz>=2022.1.1 in /usr/local/lib/python3.11/dist-packages (from pandas-stubs>=2.2.2.240807->skimpy) (2025.2.0.20250326)
-    Requirement already satisfied: markdown-it-py>=2.2.0 in /usr/local/lib/python3.11/dist-packages (from rich>=13.9.4->skimpy) (3.0.0)
-    Requirement already satisfied: typing_extensions>=4.10.0 in /usr/local/lib/python3.11/dist-packages (from typeguard>=4.4.1->skimpy) (4.13.1)
-    Requirement already satisfied: setuptools>=18.5 in /usr/local/lib/python3.11/dist-packages (from ipython>=7.23.1->ipykernel>=6.29.5->skimpy) (75.2.0)
-    Collecting jedi>=0.16 (from ipython>=7.23.1->ipykernel>=6.29.5->skimpy)
-      Downloading jedi-0.19.2-py2.py3-none-any.whl.metadata (22 kB)
-    Requirement already satisfied: decorator in /usr/local/lib/python3.11/dist-packages (from ipython>=7.23.1->ipykernel>=6.29.5->skimpy) (4.4.2)
-    Requirement already satisfied: pickleshare in /usr/local/lib/python3.11/dist-packages (from ipython>=7.23.1->ipykernel>=6.29.5->skimpy) (0.7.5)
-    Requirement already satisfied: prompt-toolkit!=3.0.0,!=3.0.1,<3.1.0,>=2.0.0 in /usr/local/lib/python3.11/dist-packages (from ipython>=7.23.1->ipykernel>=6.29.5->skimpy) (3.0.50)
-    Requirement already satisfied: backcall in /usr/local/lib/python3.11/dist-packages (from ipython>=7.23.1->ipykernel>=6.29.5->skimpy) (0.2.0)
-    Requirement already satisfied: pexpect>4.3 in /usr/local/lib/python3.11/dist-packages (from ipython>=7.23.1->ipykernel>=6.29.5->skimpy) (4.9.0)
-    Requirement already satisfied: platformdirs>=2.5 in /usr/local/lib/python3.11/dist-packages (from jupyter-core!=5.0.*,>=4.12->ipykernel>=6.29.5->skimpy) (4.3.7)
-    Requirement already satisfied: mdurl~=0.1 in /usr/local/lib/python3.11/dist-packages (from markdown-it-py>=2.2.0->rich>=13.9.4->skimpy) (0.1.2)
-    Requirement already satisfied: six>=1.5 in /usr/local/lib/python3.11/dist-packages (from python-dateutil>=2.8.2->pandas>=2.2.3->skimpy) (1.17.0)
-    Requirement already satisfied: parso<0.9.0,>=0.8.4 in /usr/local/lib/python3.11/dist-packages (from jedi>=0.16->ipython>=7.23.1->ipykernel>=6.29.5->skimpy) (0.8.4)
-    Requirement already satisfied: ptyprocess>=0.5 in /usr/local/lib/python3.11/dist-packages (from pexpect>4.3->ipython>=7.23.1->ipykernel>=6.29.5->skimpy) (0.7.0)
-    Requirement already satisfied: wcwidth in /usr/local/lib/python3.11/dist-packages (from prompt-toolkit!=3.0.0,!=3.0.1,<3.1.0,>=2.0.0->ipython>=7.23.1->ipykernel>=6.29.5->skimpy) (0.2.13)
-    Downloading skimpy-0.0.18-py3-none-any.whl (17 kB)
-    Downloading ipykernel-6.29.5-py3-none-any.whl (117 kB)
-    [2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m117.2/117.2 kB[0m [31m9.5 MB/s[0m eta [36m0:00:00[0m
-    [?25hDownloading pandas-2.2.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (13.1 MB)
-    [2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m13.1/13.1 MB[0m [31m74.0 MB/s[0m eta [36m0:00:00[0m
-    [?25hDownloading comm-0.2.2-py3-none-any.whl (7.2 kB)
-    Downloading jedi-0.19.2-py2.py3-none-any.whl (1.6 MB)
-    [2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.6/1.6 MB[0m [31m47.4 MB/s[0m eta [36m0:00:00[0m
-    [?25hInstalling collected packages: jedi, comm, pandas, ipykernel, skimpy
-      Attempting uninstall: pandas
-        Found existing installation: pandas 2.2.2
-        Uninstalling pandas-2.2.2:
-          Successfully uninstalled pandas-2.2.2
-      Attempting uninstall: ipykernel
-        Found existing installation: ipykernel 6.17.1
-        Uninstalling ipykernel-6.17.1:
-          Successfully uninstalled ipykernel-6.17.1
-    [31mERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
-    google-colab 1.0.0 requires ipykernel==6.17.1, but you have ipykernel 6.29.5 which is incompatible.
-    google-colab 1.0.0 requires pandas==2.2.2, but you have pandas 2.2.3 which is incompatible.[0m[31m
-    [0mSuccessfully installed comm-0.2.2 ipykernel-6.29.5 jedi-0.19.2 pandas-2.2.3 skimpy-0.0.18
-    
 
 
 ```python
@@ -418,7 +345,7 @@ df
 ```
 
     1.6.1
-    
+
 
 
 
@@ -839,18 +766,6 @@ df
 ```python
 !pip install wget
 ```
-
-    Collecting wget
-      Downloading wget-3.2.zip (10 kB)
-      Preparing metadata (setup.py) ... [?25l[?25hdone
-    Building wheels for collected packages: wget
-      Building wheel for wget (setup.py) ... [?25l[?25hdone
-      Created wheel for wget: filename=wget-3.2-py3-none-any.whl size=9655 sha256=78ff164fdbc7e40a7707819f40a2cf24de36f1f471bf6ba2be67e85fccf89fe0
-      Stored in directory: /root/.cache/pip/wheels/40/b3/0f/a40dbd1c6861731779f62cc4babcb234387e11d697df70ee97
-    Successfully built wget
-    Installing collected packages: wget
-    Successfully installed wget-3.2
-    
 
 
 ```python
@@ -1891,9 +1806,9 @@ plt.ylabel('fico')
 
 
 
-    
+
 ![png](prescriptive_model_files/prescriptive_model_12_1.png)
-    
+
 
 
 
@@ -1923,9 +1838,9 @@ df_train.to_csv(file_path, index=False)
     2588        1         682
     7323        1         702
     7793        1         642
-    
+
     [6661 rows x 2 columns]
-    
+
 
 
 ```python
@@ -1994,7 +1909,7 @@ print(est.summary())
     Optimization terminated successfully.
              Current function value: 0.428698
              Iterations 6
-                               Logit Regression Results                           
+                               Logit Regression Results
     ==============================================================================
     Dep. Variable:                default   No. Observations:                 6661
     Model:                          Logit   Df Residuals:                     6659
@@ -2009,7 +1924,7 @@ print(est.summary())
     Intercept      7.0775      0.698     10.140      0.000       5.709       8.446
     fico_score    -0.0124      0.001    -12.423      0.000      -0.014      -0.010
     ==============================================================================
-    
+
 
 
 ```python
@@ -2322,9 +2237,9 @@ print(df_test)
     8414        0         647               0.282350             1
     5039        0         697               0.174817             0
     4637        0         722               0.134542             0
-    
+
     [2855 rows x 4 columns]
-    
+
 
 
 ```python
@@ -2347,13 +2262,13 @@ print('Accuracy: '+str(accuracy_score(df_test['default'], df_test['will_default'
 ```
 
 
-    
+
 ![png](prescriptive_model_files/prescriptive_model_20_0.png)
-    
+
 
 
     Accuracy: 0.815061295971979
-    
+
 
 
 ```python
@@ -2384,7 +2299,7 @@ plt.show()
 ```
 
 
-    
+
 ![png](prescriptive_model_files/prescriptive_model_21_0.png)
-    
+
 

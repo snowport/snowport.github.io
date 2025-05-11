@@ -1,8 +1,6 @@
 # Learning an Image Classification Model from Scratch
 
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/noportman/mitxpro/blob/main/files/image_classification.ipynb)
-
 ## The Fashion MNIST dataset
 
 The [fashion_mnist](https://github.com/zalandoresearch/fashion-mnist) dataset consists of 70,000 images of clothing items across 10 categories.
@@ -47,7 +45,7 @@ With the technical preliminaries out of the way, let's load the dataset and take
     [1m5148/5148[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 0us/step
     Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/t10k-images-idx3-ubyte.gz
     [1m4422102/4422102[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 0us/step
-    
+
 
 
 ```python
@@ -55,7 +53,7 @@ print(x_train.shape, y_train.shape)
 ```
 
     (60000, 28, 28) (60000,)
-    
+
 
 There are 60,000 images in the training set, each of which is a 28x28 matrix.
 
@@ -65,7 +63,7 @@ print(x_test.shape, y_test.shape)
 ```
 
     (10000, 28, 28) (10000,)
-    
+
 
 The remaining 10,000 images are in the test set.
 
@@ -271,9 +269,9 @@ for i in range(25):
 ```
 
 
-    
+
 ![png](image_classification_files/image_classification_19_0.png)
-    
+
 
 
 The images are a bit small but they will do for now.
@@ -388,7 +386,7 @@ print(parameters)
 ```
 
     203530
-    
+
 
 ### Set Optimization Parameters
 
@@ -448,7 +446,7 @@ model.fit(x_train, y_train, batch_size=batch_size, epochs=epochs)
     [1m938/938[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m6s[0m 6ms/step - accuracy: 0.9124 - loss: 0.2358
     Epoch 10/10
     [1m938/938[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m5s[0m 5ms/step - accuracy: 0.9156 - loss: 0.2253
-    
+
 
 
 
@@ -470,7 +468,7 @@ model.evaluate(x_test, y_test)
 ```
 
     [1m313/313[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 3ms/step - accuracy: 0.8771 - loss: 0.3545
-    
+
 
 
 
@@ -660,7 +658,7 @@ model.fit(x_train, y_train, batch_size=64, epochs=10)
     [1m938/938[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m42s[0m 38ms/step - accuracy: 0.9444 - loss: 0.1489
     Epoch 10/10
     [1m938/938[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m39s[0m 37ms/step - accuracy: 0.9511 - loss: 0.1333
-    
+
 
 
 
@@ -680,7 +678,7 @@ print("Test accuracy:", score[1])
 
     [1m313/313[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m2s[0m 7ms/step - accuracy: 0.9045 - loss: 0.3185
     Test accuracy: 0.9061999917030334
-    
+
 
 Back to Fashion MNIST. Let's see what the [state of the art (SOTA)](https://www.google.com/url?q=https%3A%2F%2Fpaperswithcode.com%2Fsota%2Fimage-classification-on-fashion-mnist) accuracy is.
 
