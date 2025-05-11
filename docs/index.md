@@ -4,7 +4,9 @@
 
     Stay tuned!
 
-Hi! :wave:
+Hi! :wave: 
+
+My name is Noah.
 
 I'm a **data analyst** and **sustainability scientist** with a robust background in
 environmental engineering, sustainability science, and advanced analytics.
