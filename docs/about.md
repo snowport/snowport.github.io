@@ -138,17 +138,10 @@ BS, Environmental Engineering
 
 ## **Samples**
 
-1. [Accounting for Natural Capital - Breaking the Carbon
-Budget](https://www.noahportman.com/_files/ugd/b94f2a_27a1368e06c848598bdf92c60c84fc35.pdf)
+1. [Accounting for Natural Capital - Breaking the Carbon Budget](assets/Breaking_the_Carbon_Budget.pdf)
 
-2. [Capstone
-](https://www.noahportman.com/_files/ugd/b94f2a_230a08d55097406db36fae03ad2d225d.pdf)[Study
-on NYC Subway System Particulate Matter Concentration
-](https://www.noahportman.com/_files/ugd/b94f2a_230a08d55097406db36fae03ad2d225d.pdf)
+2. [Study on NYC Subway System Particulate Matter Concentration](assets/Capstone_Final_Draft_Fall_2021.pdf)
 
+3. [Case Study on Coastal Wetland Eutrophication](assets/Coastal_Wetland_Eutrophication.pdf)
 
-3. [Case Study on Coastal Wetland
-Eutrophication](https://www.noahportman.com/_files/ugd/b94f2a_d50efa4a3e6749759299ec4d0d04e46a.pdf)
-
-4. [Water Confidence
-Index](https://www.noahportman.com/_files/ugd/b94f2a_649f24000b7046e19229cd2c45183485.pdf)
+4. [Water Confidence Index](assets/Water_Confidence_Index.pdf)
