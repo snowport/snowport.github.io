@@ -1,7 +1,7 @@
 # Learning an Image Classification Model from Scratch
 
 
-## The Fashion MNIST dataset
+## Introduction
 
 The [fashion_mnist](https://github.com/zalandoresearch/fashion-mnist) dataset consists of 70,000 images of clothing items across 10 categories.
 
@@ -406,7 +406,7 @@ model.compile(loss="sparse_categorical_crossentropy",
               metrics=["accuracy"])
 ```
 
-### Train the Model!
+### Train the Model
 
 - The batch size: 32 or 64 are commonly used
 - The number of epochs i.e., how many passes through the training data: start with 10-20.
@@ -455,7 +455,7 @@ model.fit(x_train, y_train, batch_size=batch_size, epochs=epochs)
 
 
 
-### Evaluate the
+### Evaluate the Model
 
 You can see from the above that our model achieves over 91% accuracy on the train set but, as we know, doing well on the training set isn't all that impressive due to the possibility of overfitting. So the real question is how well does it do on the test set?
 
@@ -485,7 +485,7 @@ Did the NNs we create take advantage of the fact that the input data is images?
 
 ## A Convolutional Neural Network
 
-## Convolutional Layers
+**Convolutional Layers**
 
 Convolutional (typically abbreviated to "conv") layers were the key breakthrough that led to all the exciting advances in AI for Computer Vision problems like Image Classification, Image Recognition etc. They were designed to specifically work with images.
 
@@ -499,7 +499,7 @@ We will follow the same sequence of steps as we did above:
 - Train Model
 - Evaluate Model
 
-## Data Prep
+### Data Prep
 
 The data has already been normalized so that the numbers are between 0 and 1. We don't need to do it again.
 
@@ -537,7 +537,7 @@ x_train.shape
 
 
 
-## Define Model
+### Define Model
 
 OK, we are ready to create our very first **Convolutional Neural Network (CNN)!**
 
@@ -616,7 +616,7 @@ model.summary()
 
 
 
-## Set Optimization Parameters
+### Set Optimization Parameters
 
 
 ```python
@@ -627,7 +627,7 @@ model.compile(loss='sparse_categorical_crossentropy',
              metrics=['accuracy'])
 ```
 
-## Train the Model
+### Train the Model
 
 DISCLAIMER: This will take some time to complete
 
@@ -667,7 +667,7 @@ model.fit(x_train, y_train, batch_size=64, epochs=10)
 
 
 
-## Evaluate the Model
+### Evaluate the Model
 
 
 ```python

@@ -1,5 +1,7 @@
 # Data Cleaning, EDA, and Statistical Modeling Workbook
 
+## Introduction
+
 This notebook walks through a full data analysis pipeline — from raw data ingestion and encoding detection to exploratory data analysis (EDA), statistical modeling, and model performance evaluation. Key tools include `chardet` and `codecs` for encoding detection, `pandas` and `skimpy` for data exploration, `statsmodels` for linear and logistic regression, and `scikit-learn` for evaluation metrics such as confusion matrices and accuracy scores.
 
 
@@ -8,6 +10,7 @@ This notebook walks through a full data analysis pipeline — from raw data inge
 !pip install skimpy
 ```
 
+### Data Ingestion
 
 ```python
 import chardet
@@ -2241,6 +2244,7 @@ print(df_test)
     [2855 rows x 4 columns]
 
 
+## Confusion Matrix
 
 ```python
 # Evaluation Metrics
