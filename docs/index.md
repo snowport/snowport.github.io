@@ -2,9 +2,7 @@
 
 !!! tip "Under Development"
 
-    This site is currently under construction.
-
-    Stay tuned!
+    This site is currently under construction. Stay tuned!
 
 I'm a **data analyst** and **sustainability scientist** with a robust background in
 environmental engineering, sustainability science, and advanced analytics.
