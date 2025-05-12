@@ -1,7 +1,6 @@
 black
 black[jupyter]
 build
-bump-my-version
 click
 codespell
 flake8
