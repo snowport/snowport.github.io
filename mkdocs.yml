@@ -1,7 +1,7 @@
-site_name: Site
+site_name: noportman.github.io
 site_description: A python portfolio
 site_author: noportman
-site_url: https://noportman.github.io/portfolio
+# site_url: https://noportman.github.io
 # repo_url: https://github.com/noportman/portfolio
 theme:
   name: material
