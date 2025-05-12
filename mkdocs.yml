@@ -2,7 +2,7 @@ site_name: noportman.github.io
 site_description: A python portfolio
 site_author: noportman
 # site_url: https://noportman.github.io
-# repo_url: https://github.com/noportman/portfolio
+# repo_url: https://github.com/noportman/noportman.github.io
 theme:
   name: material
   font:
@@ -76,9 +76,10 @@ nav:
   - CV: cv.md
   - Portfolio:
       - Overview: overview.md
-      - Patient Scheduling: notebooks/prescriptive_data.ipynb
-      - Predicting Abnormal Scans: notebooks/binary_classification.ipynb
-      - Image Classification: notebooks/image_classification.ipynb
-      - Statistical Modeling: notebooks/prescriptive_data.ipynb
-      - Predictive Modeling: notebooks/XGBoost.ipynb
+      - Patient Scheduling: notebooks/01_prescriptive_data.ipynb
+      - Predicting Abnormal Scans: notebooks/02_binary_classification.ipynb
+      - Statistical Modeling: notebooks/03_prescriptive_model.ipynb
+      - Image Classification: notebooks/04_image_classification.ipynb
+      - Predictive Modeling: notebooks/05_XGBoost.ipynb
+  - Writing Samples: samples.md
 

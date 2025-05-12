@@ -140,13 +140,3 @@ The Ohio State University
   * Magna Cum Laude
   * Humanitarian Engineering Scholar
   * Tau Beta Pi
-
-## **Samples**
-
-1. [Accounting for Natural Capital - Breaking the Carbon Budget](assets/samples/Breaking_the_Carbon_Budget.pdf)
-
-2. [Study on NYC Subway System Particulate Matter Concentration](assets/samples/Capstone_Final_Draft_Fall_2021.pdf)
-
-3. [Case Study on Coastal Wetland Eutrophication](assets/samples/Coastal_Wetland_Eutrophication.pdf)
-
-4. [Water Confidence Index](assets/samples/Water_Confidence_Index.pdf)
