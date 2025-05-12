@@ -3,14 +3,14 @@
 ---
 
 ## Overview  
-This collection of four applied research projects spans air and water quality, climate policy, and ecological accounting. Through data-driven analysis, remote sensing, and policy evaluation, each study explores sustainable development challenges and proposes actionable solutions for decision-makers, urban planners, and environmental managers.
+This collection of applied research projects spans air and water quality, climate policy, and ecological accounting. Through data-driven analysis, remote sensing, and policy evaluation, each study explores sustainable development challenges and proposes actionable solutions for decision-makers, urban planners, and environmental managers.
 
 **Program:** Columbia University MS in Sustainability Science (2020–2021)  
 
 
 ---
 
-## 1. **Water Confidence Index (WCI): Development and Construction**  
+## **Water Confidence Index (WCI): Development and Construction**  
 **Focus:** A composite index ranking U.S. public water systems on compliance and reporting transparency.
 
 - **Method:** EPA SDWIS/ECHO data (2011–2020), normalized into Environmental Compliance + Truthful Reporting scores.
@@ -20,7 +20,7 @@ This collection of four applied research projects spans air and water quality, c
 
 ---
 
-## 2. **PM2.5 in NYC Subway System: Air Quality Analysis**  
+## **PM2.5 in NYC Subway System: Air Quality Analysis**  
 **Focus:** Measuring underground air pollution in NYC subway lines using low-cost sensors.
 
 - **Devices:** PurpleAir, UPAS, Temptop.
@@ -32,7 +32,7 @@ This collection of four applied research projects spans air and water quality, c
 
 ---
 
-## 3. **Coastal Wetland Eutrophication (Gulf Coast)**  
+## **Coastal Wetland Eutrophication (Gulf Coast)**  
 **Focus:** Evaluating how wetlands vs. urbanized coasts impact harmful algal blooms (HABs).
 
 - **Method:** MODIS-Aqua (2005–2020) and Landsat 8 chlorophyll-a anomaly analysis.
@@ -43,7 +43,7 @@ This collection of four applied research projects spans air and water quality, c
 
 ---
 
-## 4. **Breaking the Carbon Budget: Accounting for Natural Capital**  
+## **Breaking the Carbon Budget: Accounting for Natural Capital**  
 **Focus:** Redefining economic development by valuing natural capital and reallocating the global carbon budget.
 
 - **Themes:** Paris Agreement compliance, natural vs. human capital, equity in emissions reductions.
