@@ -1,4 +1,4 @@
-# CV
+# :material-database: CV
 
 
 ## **Skills**
@@ -33,7 +33,7 @@ projects
 
 ## **Experience**
 
-**MIT xPRO - Professional Certificate in Data Science and Analytics**
+**MIT xPRO - Professional Certificate in Data Science and Analytics** ([MIT xPRO](https://xpro.mit.edu/))
 
 * Completed an intensive program designed to enhance data science skills,
 focusing on analytics and machine learning applications.
@@ -43,20 +43,20 @@ modeling techniques.
 * Developed proficiency in programming languages and tools
 such as Python, enabling the analysis and interpretation of complex datasets.
 * Built a portfolio of projects that showcased practical applications of data science in environmental contexts,
-* preparing for a career that merges data analytics with sustainability efforts.
+  preparing for a career that merges data analytics with sustainability efforts.
 
-*Learn more: [MIT xPRO](https://xpro.mit.edu/)*
 
-**Sermonix Pharmaceuticals - Data Analysis and BD Associate**
+
+**Sermonix Pharmaceuticals - Data Analysis and Business Development Associate** ([Sermonix Pharmaceuticals](https://sermonixpharma.com/))
 
 * Developed patient databases for ongoing clinical trials, progress reports, and data visualizations.
 * Increased efficiencies by recognizing opportunities for process improvement and new system integration.
 * Generated valuable insights on competitive intelligence leveraging web-based applications and life science
 databases.​
 
-*Learn more: [Sermonix Pharmaceuticals](https://sermonixpharma.com/)*
 
-**Climatebase Fellowship - Cohort 3 Fellow**
+
+**Climatebase Fellowship - Cohort 3 Fellow** ([Climatebase Fellowship](https://climatebase.org/fellowship))
 
 * Selected for a prestigious fellowship, enhancing expertise in climate policy,
 strategic environmental planning, and innovative solution development.
@@ -72,9 +72,9 @@ and initiatives.
 sustainability, broadening perspective and fostering collaborative
 opportunities in the field.
 
-*Learn more: [Climatebase Fellowship](https://climatebase.org/fellowship)*
 
-**N-Drip - Sustainability Associate**
+
+**N-Drip - Sustainability Associate** ([N-Drip](https://ndrip.com/))
 
 * Engaged with universities, think tanks, and trade associations as to the
 benefits of the technology.
@@ -83,7 +83,7 @@ benefits of the technology.
 * Researched strategies and methods for generating agricultural carbon offsets from carbon
 and methane reductions.
 
-*Learn more: [N-Drip](https://ndrip.com/)*
+
 
 **Columbia University - Project Manager, SuSci Integrative Capstone**
 
@@ -102,16 +102,16 @@ sustainability best practices regarding water and the environment.
 * Prepared client presentation pitch decks and proposals using analytics and strong
 visual communication skills.
 
-**Gresham Smith - Environmental Engineer**
+**Gresham Smith - Environmental Engineer** ([Gresham Smith](https://www.greshamsmith.com/))
 
 * Performed EMS and EHS inspections to help clients meet compliance and achieve
 sustainability targets.
 * Developed NPDES outfall permits through field work, data analysis, and QUAL2K modeling.
 * Investigated and drafted SPCC and SWPPP plans for numerous government and private clients.
 
-*Learn more: [Gresham Smith](https://www.greshamsmith.com/)*
 
-**eggXYt - Business Development Associate**
+
+**eggXYt - Business Development Associate** ([eggXYt](https://www.eggxyt.com/))
 
 * Showcased product demo as Startup Battlefield finalist at TechCrunch Disrupt
 San Francisco.
@@ -120,7 +120,7 @@ platforms for the website.
 * Constructed database for competitive intelligence
 and compendium on AgTech investment space.
 
-*Learn more: [eggXYt](https://www.eggxyt.com/)*
+
 
 **Zuckerberg Institute for Water Research - Hydrology Lab Assistant**
 

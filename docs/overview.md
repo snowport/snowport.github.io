@@ -1,6 +1,5 @@
-# Overview
+# :simple-docsdotrs: Overview
 
-**Welcome to my portfolio!**  :raised_hands:
 
 The examples in this portfolio showcase projects and insights from the MIT xPRO Professional Certificate in Data Science and Analytics program.
 

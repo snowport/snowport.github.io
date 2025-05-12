@@ -347,7 +347,7 @@ print(skl.__version__)
 df
 ```
 
-    1.6.1
+1.6.1
 
 
 
@@ -1804,7 +1804,7 @@ plt.ylabel('fico')
 
 
 
-    Text(0, 0.5, 'fico')
+Text(0, 0.5, 'fico')
 
 
 
@@ -1896,7 +1896,7 @@ skim(df_test)
 </pre>
 
 
-
+### Build Logit Model
 
 ```python
 # build formula,  target (dependent variable) ~ features (independent variables)
@@ -1928,7 +1928,7 @@ print(est.summary())
     fico_score    -0.0124      0.001    -12.423      0.000      -0.014      -0.010
     ==============================================================================
 
-
+### Make Predictions
 
 ```python
 # apply the model (est) to the test data and make predictions

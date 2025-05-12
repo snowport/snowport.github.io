@@ -1,10 +1,10 @@
-!!! warning "Under Development"
+# :material-home: Hey There!
 
-    This site is still being updated.
+!!! tip "Under Development"
+
+    This site is currently under construction.
 
     Stay tuned!
-
-Hi! :wave:
 
 I'm a **data analyst** and **sustainability scientist** with a robust background in
 environmental engineering, sustainability science, and advanced analytics.
@@ -23,3 +23,5 @@ to help industries operate sustainably and innovate strategically.
 Let's connect and collaborate on impactful, data-driven solutions.
 
 ~ NP
+
+![profile](assets/images/profile.png)
