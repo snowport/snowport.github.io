@@ -1,4 +1,4 @@
-# :material-home: Hey There!
+# :material-home: Hey there!
 
 !!! tip "Under Development"
 
@@ -20,8 +20,8 @@ sparking innovation, I bring data to the forefront of decision-making.
 Committed to creating meaningful change, I'm dedicated to applying analytics
 to help industries operate sustainably and innovate strategically.
 
-Let's connect and collaborate on impactful, data-driven solutions.
-
-~ NP
+Let's [connect](https://www.linkedin.com/in/noah-portman/) and collaborate on impactful, data-driven solutions.
 
 ![profile](assets/images/profile.png)
+
+~ NP

@@ -41,7 +41,7 @@ ans = workload / prob
 print(ans)
 ```
 
-    40.0
+40.0
 
 
 ## Binomial Distribution Model
@@ -97,7 +97,7 @@ overworked = 1 - binom.cdf(workload, linearPrediction, prob)
 print(overworked)
 ```
 
-    0.439539731672533
+0.439539731672533
 
 
 Finally, we can use the binomial ppf() function to find the number of appointments the physician should book if she wants to limit the risk of having more than 30 appointments per day to 5%
@@ -119,5 +119,5 @@ total = workload + binom.ppf(target, workload, 1 - prob)
 print(total)
 ```
 
-    34.0
+34.0
 

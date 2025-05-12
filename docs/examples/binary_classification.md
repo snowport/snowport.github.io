@@ -53,7 +53,7 @@ df.shape
 
 
 
-    (4998, 141)
+(4998, 141)
 
 
 
@@ -465,14 +465,15 @@ numerics.remove('Target')
 target_metrics = df.Target.value_counts(normalize=True)
 print(target_metrics)
 ```
+<pre>
+Target
+1.0    0.584034
+0.0    0.415966
+Name: proportion, dtype: float64
+</pre>
 
-    Target
-    1.0    0.584034
-    0.0    0.415966
-    Name: proportion, dtype: float64
 
-
-###### Extract the dependent variable
+Extract the dependent variable
 
 
 ```python
@@ -504,20 +505,20 @@ means = X_train[numerics].mean()
 sd = X_train[numerics].std()
 print(means)
 ```
-
-    0     -0.267138
-    1     -1.648505
-    2     -2.486585
-    3     -3.109836
-    4     -3.158222
-             ...
-    135   -0.771955
-    136   -0.850764
-    137   -0.661878
-    138   -0.508294
-    139   -0.720762
-    Length: 140, dtype: float64
-
+<pre>
+0     -0.267138
+1     -1.648505
+2     -2.486585
+3     -3.109836
+4     -3.158222
+          ...
+135   -0.771955
+136   -0.850764
+137   -0.661878
+138   -0.508294
+139   -0.720762
+Length: 140, dtype: float64
+</pre>
 
 Let's normalize the train and test dataframes with these means and standard deviations.
 
@@ -939,7 +940,7 @@ X_train.shape, y_train.shape
 
 
 
-    ((3998, 140), (3998,))
+  ((3998, 140), (3998,))
 
 
 
@@ -952,7 +953,7 @@ X_test.shape, y_test.shape
 
 
 
-    ((1000, 140), (1000,))
+  ((1000, 140), (1000,))
 
 
 
@@ -1059,9 +1060,10 @@ model.compile(optimizer="adam",
 ## Train the model
 
 To kickoff training, we have to decide on three things:
-* The *batch size* - 32 is a good default
-* The number of *epochs* (i.e., how many passes through the training data). Start by setting this to 100, but you can experiment with different values.
-* Whether we want to use a validation set. This will be useful for overfitting detection and regularization via early stopping so we will ask Keras to automatically use 20% of the data points as a validation set
+
+  * The *batch size* - 32 is a good default
+  * The number of *epochs* (i.e., how many passes through the training data). Start by setting this to 100, but you can experiment with different values.
+  * Whether we want to use a validation set. This will be useful for overfitting detection and regularization via early stopping so we will ask Keras to automatically use 20% of the data points as a validation set
 
 
 ```python
@@ -1082,7 +1084,7 @@ history_dict.keys()
 
 
 
-    dict_keys(['accuracy', 'loss', 'val_accuracy', 'val_loss'])
+  dict_keys(['accuracy', 'loss', 'val_accuracy', 'val_loss'])
 
 
 
@@ -1138,8 +1140,9 @@ Let's see **how well the model does on the test set**.
 score, acc = model.evaluate(X_test, y_test)
 ```
 
-    [1m32/32[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 3ms/step - accuracy: 0.9930 - loss: 0.0454
-
+<pre>
+[1m32/32[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 3ms/step - accuracy: 0.9930 - loss: 0.0454
+</pre>
 
 
 ```python
@@ -1217,5 +1220,5 @@ plt.show()
 print(y_train[row_index])
 ```
 
-    0.0
+0.0
 

@@ -36,24 +36,24 @@ With the technical preliminaries out of the way, let's load the dataset and take
 
 (x_train, y_train), (x_test, y_test) = keras.datasets.fashion_mnist.load_data()
 ```
-
-    Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/train-labels-idx1-ubyte.gz
-    [1m29515/29515[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 0us/step
-    Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/train-images-idx3-ubyte.gz
-    [1m26421880/26421880[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 0us/step
-    Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/t10k-labels-idx1-ubyte.gz
-    [1m5148/5148[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 0us/step
-    Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/t10k-images-idx3-ubyte.gz
-    [1m4422102/4422102[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 0us/step
-
+<pre>
+Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/train-labels-idx1-ubyte.gz
+[1m29515/29515[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 0us/step
+Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/train-images-idx3-ubyte.gz
+[1m26421880/26421880[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 0us/step
+Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/t10k-labels-idx1-ubyte.gz
+[1m5148/5148[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 0us/step
+Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/t10k-images-idx3-ubyte.gz
+[1m4422102/4422102[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 0us/step
+</pre>
 
 
 ```python
 print(x_train.shape, y_train.shape)
 ```
-
-    (60000, 28, 28) (60000,)
-
+<pre>
+(60000, 28, 28) (60000,)
+</pre>
 
 There are 60,000 images in the training set, each of which is a 28x28 matrix.
 
@@ -61,9 +61,9 @@ There are 60,000 images in the training set, each of which is a 28x28 matrix.
 ```python
 print(x_test.shape, y_test.shape)
 ```
-
-    (10000, 28, 28) (10000,)
-
+<pre>
+(10000, 28, 28) (10000,)
+</pre>
 
 The remaining 10,000 images are in the test set.
 
@@ -78,9 +78,9 @@ y_train[:10]
 
 
 
-
-    array([9, 0, 0, 3, 0, 2, 7, 2, 5, 5], dtype=uint8)
-
+<pre>
+array([9, 0, 0, 3, 0, 2, 7, 2, 5, 5], dtype=uint8)
+</pre>
 
 
 What do these numbers mean?
@@ -128,9 +128,9 @@ labels[y_train[0]]
 
 
 
-
-    'Ankle boot'
-
+<pre>
+'Ankle boot'
+</pre>
 
 
 The very first image is an "Ankle boot"!
@@ -144,19 +144,8 @@ x_train[0]
 
 
 
-
-<style>
-      .ndarray_repr .ndarray_raw_data {
-        display: none;
-      }
-      .ndarray_repr.show_array .ndarray_raw_data {
-        display: block;
-      }
-      .ndarray_repr.show_array .ndarray_image_preview {
-        display: none;
-      }
-      </style>
-      <div id="id-222552af-fcf8-4c36-8e43-9f17941df83d" class="ndarray_repr"><pre>ndarray (28, 28) <button style="padding: 0 2px;">show data</button></pre><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAAAAABXZoBIAAACBUlEQVR4nLXSz0tUURQH8O+597373rx545g6NmNJY6TlJgozEsKFZGCrkDBoVdGmdf9BiwJ3bVr1PwhBUbQfJQcKjWZRTsjo0KDpDPV+eN+997WK0Z2bvtsPfM+Bc4D/HwJycwBZAEAE6zAyfe5RFMQfFYiRAj+CXM/c2HK82VetVMM34RGUmCxz9v7yYnW9dnWyskyHR6azi72Jwep3ScVk9c7LLhKQrpRBSiI2n76puZFT3doUwH4pcmw/zpjrU2zw3dFt4XEWdvbKhpinzTBYt5bDH4qlLYO8cbKBWHOudDHluFtiLrLD0kmM2//6q9VFS+JLLDxv9GzMPV9v3XuzYgHEGSUGCngbRCLd4W6CxPCLHTDwVMkDA0y/qEa/lFFBoF2EEME8CAD6hsZK8+djlmSatuiXXsWfNh27NU6Yelro1bytPElRbaGaO1FGPfc7zPg9HvHlIaVD8AjID9y/+bgZ/6iP9ks7J/QZevh8w/cd2PlGs8CKt92R7MQEk0yA7GtWq9ETN3zRs7fpR7FaWi/3yXaipW1IjFnbaSM70N7dsRzbzbHd8aCx7+wmKskUO5esz0sPmvXYF67gBzoNfxptxb5stxM10iLg1pOTO23NhcUptW1hE6gFYYprC8QMMPNsMM+4pamVbps/HGkSsg+1Cv4d+0Jh//Sm3DjGix4rfwFoJNh2/0cDFgAAAABJRU5ErkJggg==" class="ndarray_image_preview" /><pre class="ndarray_raw_data">array([[  0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,
+<pre>
+array([[  0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,
           0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,
           0,   0],
        [  0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,
@@ -239,20 +228,7 @@ x_train[0]
           0,   0],
        [  0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,
           0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,
-          0,   0]], dtype=uint8)</pre></div><script>
-      (() => {
-      const titles = ['show data', 'hide data'];
-      let index = 0
-      document.querySelector('#id-222552af-fcf8-4c36-8e43-9f17941df83d button').onclick = (e) => {
-        document.querySelector('#id-222552af-fcf8-4c36-8e43-9f17941df83d').classList.toggle('show_array');
-        index = (++index) % 2;
-        document.querySelector('#id-222552af-fcf8-4c36-8e43-9f17941df83d button').textContent = titles[index];
-        e.preventDefault();
-        e.stopPropagation();
-      }
-      })();
-    </script>
-
+          0,   0]], dtype=uint8)</pre>
 
 
 Let's look at the first 25 images using the handy `plt.imshow()` command
@@ -385,8 +361,9 @@ parameters = (784 * 256 + 256) + (256 * 10 + 10)
 print(parameters)
 ```
 
-    203530
-
+<pre>
+203530
+</pre>
 
 ### Set Optimization Parameters
 
@@ -423,36 +400,33 @@ OK, let's train the model using the `model.fit` function!
 batch_size = 64
 epochs = 10
 
-model.fit(x_train, y_train, batch_size=batch_size, epochs=epochs)
+model.fit(x_train, y_train, batch_size=batch_size, epochs=epochs, verbose=1)
 ```
 
-    Epoch 1/10
-    [1m938/938[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m6s[0m 5ms/step - accuracy: 0.7785 - loss: 0.6342
-    Epoch 2/10
-    [1m938/938[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m5s[0m 5ms/step - accuracy: 0.8624 - loss: 0.3864
-    Epoch 3/10
-    [1m938/938[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m6s[0m 6ms/step - accuracy: 0.8769 - loss: 0.3398
-    Epoch 4/10
-    [1m938/938[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m5s[0m 5ms/step - accuracy: 0.8866 - loss: 0.3126
-    Epoch 5/10
-    [1m938/938[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m6s[0m 6ms/step - accuracy: 0.8927 - loss: 0.2910
-    Epoch 6/10
-    [1m938/938[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m9s[0m 5ms/step - accuracy: 0.8984 - loss: 0.2742
-    Epoch 7/10
-    [1m938/938[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m6s[0m 6ms/step - accuracy: 0.9027 - loss: 0.2598
-    Epoch 8/10
-    [1m938/938[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m5s[0m 5ms/step - accuracy: 0.9078 - loss: 0.2462
-    Epoch 9/10
-    [1m938/938[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m6s[0m 6ms/step - accuracy: 0.9124 - loss: 0.2358
-    Epoch 10/10
-    [1m938/938[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m5s[0m 5ms/step - accuracy: 0.9156 - loss: 0.2253
+<pre>
+Epoch 1/10
+938/938 ━━━━━━━━━━━━━━━━━━━━ 6s 5ms/step - accuracy: 0.7806 - loss: 0.6283
+Epoch 2/10
+938/938 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.8620 - loss: 0.3866
+Epoch 3/10
+938/938 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.8764 - loss: 0.3407
+Epoch 4/10
+938/938 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.8839 - loss: 0.3126
+Epoch 5/10
+938/938 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.8915 - loss: 0.2908
+Epoch 6/10
+938/938 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.8967 - loss: 0.2746
+Epoch 7/10
+938/938 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step - accuracy: 0.9022 - loss: 0.2594
+Epoch 8/10
+938/938 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.9082 - loss: 0.2468
+Epoch 9/10
+938/938 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.9128 - loss: 0.2351
+Epoch 10/10
+938/938 ━━━━━━━━━━━━━━━━━━━━ 6s 6ms/step - accuracy: 0.9165 - loss: 0.2247
+<keras.src.callbacks.history.History at 0x79726c029610>
 
-
-
-
-
-    <keras.src.callbacks.history.History at 0x780f80360110>
-
+</pre>
 
 
 ### Evaluate the Model
@@ -467,15 +441,10 @@ You can see from the above that our model achieves over 91% accuracy on the trai
 model.evaluate(x_test, y_test)
 ```
 
-    [1m313/313[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 3ms/step - accuracy: 0.8771 - loss: 0.3545
-
-
-
-
-
-    [0.34627604484558105, 0.8802000284194946]
-
-
+<pre>
+313/313 ━━━━━━━━━━━━━━━━━━━━ 1s 2ms/step - accuracy: 0.8750 - loss: 0.3494
+[0.3467539846897125, 0.8776999711990356]
+</pre>
 
 
 
@@ -511,8 +480,10 @@ x_train.shape
 
 
 
-    (60000, 28, 28)
 
+<pre>
+(60000, 28, 28)
+</pre>
 
 
 For reasons that will become clear when you work with color images, we also need to add another dimension to each example so that it goes from 28x28 to 28x28x1
@@ -532,9 +503,9 @@ x_train.shape
 
 
 
-
-    (60000, 28, 28, 1)
-
+<pre>
+(60000, 28, 28, 1)
+</pre>
 
 
 ### Define Model
@@ -635,36 +606,31 @@ DISCLAIMER: This will take some time to complete
 ```python
 # Train the model with either 32 or 64 as the batch size and using 10 epochs
 
-model.fit(x_train, y_train, batch_size=64, epochs=10)
+model.fit(x_train, y_train, batch_size=64, epochs=10, verbose=1)
 ```
-
-    Epoch 1/10
-    [1m938/938[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m37s[0m 38ms/step - accuracy: 0.7681 - loss: 0.6519
-    Epoch 2/10
-    [1m938/938[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m38s[0m 40ms/step - accuracy: 0.8799 - loss: 0.3318
-    Epoch 3/10
-    [1m938/938[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m38s[0m 37ms/step - accuracy: 0.8982 - loss: 0.2799
-    Epoch 4/10
-    [1m938/938[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m41s[0m 37ms/step - accuracy: 0.9085 - loss: 0.2480
-    Epoch 5/10
-    [1m938/938[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m41s[0m 37ms/step - accuracy: 0.9183 - loss: 0.2239
-    Epoch 6/10
-    [1m938/938[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m40s[0m 36ms/step - accuracy: 0.9246 - loss: 0.2032
-    Epoch 7/10
-    [1m938/938[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m41s[0m 36ms/step - accuracy: 0.9307 - loss: 0.1835
-    Epoch 8/10
-    [1m938/938[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m42s[0m 37ms/step - accuracy: 0.9386 - loss: 0.1661
-    Epoch 9/10
-    [1m938/938[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m42s[0m 38ms/step - accuracy: 0.9444 - loss: 0.1489
-    Epoch 10/10
-    [1m938/938[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m39s[0m 37ms/step - accuracy: 0.9511 - loss: 0.1333
-
-
-
-
-
-    <keras.src.callbacks.history.History at 0x780f7d68abd0>
-
+<pre>
+Epoch 1/10
+938/938 ━━━━━━━━━━━━━━━━━━━━ 35s 35ms/step - accuracy: 0.7594 - loss: 0.6789
+Epoch 2/10
+938/938 ━━━━━━━━━━━━━━━━━━━━ 34s 36ms/step - accuracy: 0.8772 - loss: 0.3413
+Epoch 3/10
+938/938 ━━━━━━━━━━━━━━━━━━━━ 33s 35ms/step - accuracy: 0.8961 - loss: 0.2879
+Epoch 4/10
+938/938 ━━━━━━━━━━━━━━━━━━━━ 34s 37ms/step - accuracy: 0.9057 - loss: 0.2547
+Epoch 5/10
+938/938 ━━━━━━━━━━━━━━━━━━━━ 31s 34ms/step - accuracy: 0.9156 - loss: 0.2287
+Epoch 6/10
+938/938 ━━━━━━━━━━━━━━━━━━━━ 41s 33ms/step - accuracy: 0.9238 - loss: 0.2070
+Epoch 7/10
+938/938 ━━━━━━━━━━━━━━━━━━━━ 45s 37ms/step - accuracy: 0.9315 - loss: 0.1870
+Epoch 8/10
+938/938 ━━━━━━━━━━━━━━━━━━━━ 39s 35ms/step - accuracy: 0.9379 - loss: 0.1690
+Epoch 9/10
+938/938 ━━━━━━━━━━━━━━━━━━━━ 41s 35ms/step - accuracy: 0.9462 - loss: 0.1507
+Epoch 10/10
+938/938 ━━━━━━━━━━━━━━━━━━━━ 31s 33ms/step - accuracy: 0.9512 - loss: 0.1342
+<keras.src.callbacks.history.History at 0x79726408fe50>
+</pre>
 
 
 ### Evaluate the Model
@@ -672,13 +638,13 @@ model.fit(x_train, y_train, batch_size=64, epochs=10)
 
 ```python
 # Get the score of the model
-score = model.evaluate(x_test, y_test)
+score = model.evaluate(x_test, y_test, verbose=2)
 print("Test accuracy:", score[1])
 ```
-
-    [1m313/313[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m2s[0m 7ms/step - accuracy: 0.9045 - loss: 0.3185
-    Test accuracy: 0.9061999917030334
-
+<pre>
+313/313 - 2s - 6ms/step - accuracy: 0.9122 - loss: 0.2723
+Test accuracy: 0.9121999740600586
+</pre>
 
 Back to Fashion MNIST. Let's see what the [state of the art (SOTA)](https://www.google.com/url?q=https%3A%2F%2Fpaperswithcode.com%2Fsota%2Fimage-classification-on-fashion-mnist) accuracy is.
 

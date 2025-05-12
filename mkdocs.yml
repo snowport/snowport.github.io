@@ -76,9 +76,9 @@ nav:
   - CV: cv.md
   - Portfolio:
       - Overview: overview.md
-      - Patient Scheduling: examples/patient_scheduling.md
-      - Predicting Abnormal Scans: examples/binary_classification.md
-      - Image Classification: examples/image_classification.md
-      - Statistical Modeling: examples/prescriptive_model.md
-      - Predictive Modeling: examples/XGBoost.md
+      - Patient Scheduling: notebooks/prescriptive_data.ipynb
+      - Predicting Abnormal Scans: notebooks/binary_classification.ipynb
+      - Image Classification: notebooks/image_classification.ipynb
+      - Statistical Modeling: notebooks/prescriptive_data.ipynb
+      - Predictive Modeling: notebooks/XGBoost.ipynb
 
