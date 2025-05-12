@@ -73,9 +73,9 @@ copyright: Copyright &copy; 2025 Noah Portman
 
 nav:
   - Welcome: index.md
-  - CV: about.md
+  - CV: cv.md
   - Portfolio:
-      - Overview: intro.md
+      - Overview: overview.md
       - Patient Scheduling: examples/patient_scheduling.md
       - Predicting Abnormal Scans: examples/binary_classification.md
       - Image Classification: examples/image_classification.md

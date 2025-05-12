@@ -1896,8 +1896,8 @@ skim(df_test)
 
 
 ```python
-# build formula,  target (depedent variable) ~ features (indepedent variables)
-# build model, fit the formula to the training data using a logistic algorithim (logit)
+# build formula,  target (dependent variable) ~ features (independent variables)
+# build model, fit the formula to the training data using a logistic algorithm (logit)
 est = logit(formula="default ~ fico_score", data=df_train).fit()
 
 # print the results of the model (est).

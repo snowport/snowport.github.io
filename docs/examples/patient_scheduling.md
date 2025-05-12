@@ -1,5 +1,7 @@
 # Optimizing Patient Scheduling with Binomial Probability
 
+## Introduction
+
 This notebook contains a real-world application of the **binomial distribution** to help a physician optimize daily patient bookings. The physician sees **30 patients per day**, but due to a consistent **25% no-show rate**, there is a significant loss in efficiency and revenue.
 
 
@@ -14,10 +16,16 @@ This notebook contains a real-world application of the **binomial distribution**
 We can use python to intuitively calculate how many patients the physician should book to stay busy if only 75% of scheduled patients show up.
 
 
+## Technical preliminaries
+
 ```python
 import scipy
 from scipy.stats import binom
+```
 
+## Setting Up the Problem
+
+```py
 # Max number of patients per day
 workload = 30
 
@@ -35,6 +43,8 @@ print(ans)
 
     40.0
 
+
+## Binomial Distribution Model
 
 Because we are using *historical data* to assume 25% of patients no-show, this is a binomial distribution model. Similarly to how we calculate the normal distribution's Cumulative Density Function (CMF) and Probability Density Function (PDF), we can do the same for this normal distribution.
 
@@ -67,6 +77,7 @@ plt.show()
 ![png](patient_scheduling_files/patient_scheduling_7_0.png)
 
 
+## Solution
 
 Next, use Python's scipy.stats.binom package to get more insight of the situation. Find the cumulative density function to statistically calculate how much (in percent) will the physician be overbooked if we use the linear calculations from the first step to overbook patients.
 

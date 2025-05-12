@@ -4,9 +4,7 @@
 
     Stay tuned!
 
-Hi! :wave: 
-
-My name is Noah.
+Hi! :wave:
 
 I'm a **data analyst** and **sustainability scientist** with a robust background in
 environmental engineering, sustainability science, and advanced analytics.
@@ -23,3 +21,5 @@ Committed to creating meaningful change, I'm dedicated to applying analytics
 to help industries operate sustainably and innovate strategically.
 
 Let's connect and collaborate on impactful, data-driven solutions.
+
+~ NP

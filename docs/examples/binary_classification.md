@@ -36,7 +36,7 @@ for i in range(140):
 names.append('Target')
 ```
 
-#### Read in the data from http://storage.googleapis.com/download.tensorflow.org/data/ecg.csv and set the column names from the list created in the box above
+Read in the data from [http://storage.googleapis.com/download.tensorflow.org/data/ecg.csv](http://storage.googleapis.com/download.tensorflow.org/data/ecg.csv) and set the column names from the list created in the box above
 
 
 ```python
