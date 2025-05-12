@@ -3,8 +3,7 @@ name: Deploy MkDocs Site
 on:
   push:
     branches:
-      - main
-      - master
+      - main  # or master
 
 permissions:
   contents: write
@@ -26,5 +25,8 @@ jobs:
           pip install --upgrade pip
           pip install -r requirements.txt -r requirements_dev.txt
 
-      - name: Deploy to GitHub Pages
+      - name: Add CNAME file
+        run: echo "www.noahportman.com" > site/CNAME
+
+      - name: Deploy with MKDocs
         run: mkdocs gh-deploy --force
