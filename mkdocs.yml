@@ -17,7 +17,7 @@ theme:
     # Dark Mode
     - scheme: slate
       toggle:
-        icon: material/weather-sunny
+        icon: material/toggle-switch
         name: Dark mode
       primary: indigo
       accent: indigo
@@ -25,7 +25,7 @@ theme:
     # Light Mode
     - scheme: default
       toggle:
-        icon: material/weather-night
+        icon: material/toggle-switch-off-outline
         name: Light mode
       primary: indigo
       accent: indigo
