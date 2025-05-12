@@ -32,6 +32,8 @@ theme:
 
 markdown_extensions:
   - admonition
+  - markdown_include.include:
+      base_path: docs/
   - pymdownx.details
   - attr_list
   - pymdownx.superfences
@@ -42,6 +44,7 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.inlinehilite:
   - pymdownx.snippets:
+      base_path: docs/
   - pymdownx.superfences:
   - pymdownx.tabbed:
       alternate_style: true
@@ -74,12 +77,18 @@ copyright: Copyright &copy; 2025 Noah Portman
 nav:
   - Welcome: index.md
   - CV: cv.md
-  - Portfolio:
-      - Overview: overview.md
-      - Patient Scheduling: notebooks/01_prescriptive_data.ipynb
-      - Predicting Abnormal Scans: notebooks/02_binary_classification.ipynb
-      - Statistical Modeling: notebooks/03_prescriptive_model.ipynb
-      - Image Classification: notebooks/04_image_classification.ipynb
-      - Predictive Modeling: notebooks/05_XGBoost.ipynb
-  - Writing Samples: samples.md
+  - Portfolio Notebooks:
+      - Notebooks: portfolio.md
+      - 01 - Patient Scheduling: notebooks/01_prescriptive_data.ipynb
+      - 02 - Predicting Abnormal Scans: notebooks/02_binary_classification.ipynb
+      - 03 - Statistical Modeling: notebooks/03_prescriptive_model.ipynb
+      - 04 - Image Classification: notebooks/04_image_classification.ipynb
+      - 05 - Predictive Modeling: notebooks/05_XGBoost.ipynb
+  - Writing Samples: 
+      - Samples: samples.md
+      - 01 - WCI: wci.md
+      - 02 - Capstone: capstone.md
+      - 03 - Eutrophication: eutrophication.md
+      - 04 - Carbon Budget: carbon_budget.md
+
 
