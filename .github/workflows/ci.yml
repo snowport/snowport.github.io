@@ -25,8 +25,5 @@ jobs:
           pip install --upgrade pip
           pip install -r requirements.txt -r requirements_dev.txt
 
-      - name: Add CNAME file
-        run: echo "www.noahportman.com" > site/CNAME
-
       - name: Deploy with MKDocs
         run: mkdocs gh-deploy --force
