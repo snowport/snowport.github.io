@@ -9,7 +9,7 @@ environmental engineering, sustainability science, and advanced analytics.
 My passion lies in transforming complex datasets into actionable insights,
 enabling organizations to align growth with environmental stewardship.
 
-With hands-on experience designing scalable processes, resolving data
+With experience designing scalable processes, resolving data
 inconsistencies, and uncovering critical trends, I excel in driving efficiency
 and optimizing outcomes in high-impact settings.
 

@@ -1,4 +1,4 @@
-## Measured Particulate Matter Concentrations in New York City’s Subway System Suggest Exceedance of U.S. Environmental Protection 
+## Measured Particulate Matter Concentrations in New York City’s Subway System Suggest Exceedance of U.S. Environmental Protection
 *Fall 2021*
 
 ![](https://upload.wikimedia.org/wikipedia/commons/2/26/Empty_subway_in_NYC.jpg)
@@ -81,10 +81,10 @@ To assess particulate matter (PM2.5) concentrations in NYC’s subway system usi
 
 ### Acknowledgements
 
-- NYC Outward Bound Schools  
-- NYC Department of Education  
-- Faculty Advisor: Dr. Benjamin Bostick  
-- Capstone Team: Greg Hopper, Noah Portman, Joseph Galbiati  
+- NYC Outward Bound Schools
+- NYC Department of Education
+- Faculty Advisor: Dr. Benjamin Bostick
+- Capstone Team: Greg Hopper, Noah Portman, Joseph Galbiati
 
 ---
 
