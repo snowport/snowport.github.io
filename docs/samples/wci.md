@@ -90,6 +90,6 @@ WCI = Average of:
 
 ---
 
-Full report available [here](assets/samples/Water_Confidence_Index.pdf).
+Full report available [here](pdfs/Water_Confidence_Index.pdf).
 
 ---

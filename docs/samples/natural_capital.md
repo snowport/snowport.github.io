@@ -81,6 +81,6 @@ To explore how rethinking **natural and human capital accounting** can inform fa
 
 ---
 
-Full report available [here](assets/samples/Breaking_the_Carbon_Budget.pdf).
+Full report available [here](pdfs/Breaking_the_Carbon_Budget.pdf).
 
 ---

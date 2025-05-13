@@ -61,6 +61,6 @@ To examine how coastal wetlands versus urban coastlines impact eutrophication, p
 
 ---
 
-Full report available [here](assets/samples/Coastal_Wetland_Eutrophication.pdf).
+Full report available [here](pdfs/Coastal_Wetland_Eutrophication.pdf).
 
 ---

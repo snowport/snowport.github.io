@@ -88,6 +88,6 @@ To assess particulate matter (PM2.5) concentrations in NYC’s subway system usi
 
 ---
 
-Full report available [here](assets/samples/Capstone_Final_Draft_Fall_2021.pdf).
+Full report available [here](pdfs/Capstone_Final_Draft_Fall_2021.pdf).
 
 ---
