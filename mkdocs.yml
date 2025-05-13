@@ -11,13 +11,14 @@ theme:
   # favicon: assets/images/favicon.png
   # logo: assets/images/logo.png
   icon:
-    logo: simple/hackthebox
+    # logo: simple/hackthebox
+    # logo: fontawesome/brands/connectdevelop
+    logo: simple/onnx
   features:
     - navigation.footer
     - navigation.top
     - navigation.tabs
   custom_dir: "docs/overrides"
-  language: en
   palette:
     # Dark Mode
     - scheme: slate
