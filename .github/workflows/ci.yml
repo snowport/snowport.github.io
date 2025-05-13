@@ -30,5 +30,11 @@ jobs:
           git config --global user.email "actions@github.com"
           git config --global user.name "GitHub Actions"
 
+      - name: Build the site
+        run: mkdocs build
+
+      - name: Add CNAME file
+        run: echo "noahportman.com" > site/CNAME
+
       - name: Deploy with MKDocs
         run: mkdocs gh-deploy --clean --force 
