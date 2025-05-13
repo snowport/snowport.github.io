@@ -8,10 +8,10 @@ theme:
   font:
     text: Roboto
     # code: Regular
-  favicon: assets/images/favicon.png
-  logo: assets/images/logo.png
-  # icon:
-  #   logo: 
+  # favicon: assets/images/favicon.png
+  # logo: assets/images/logo.png
+  icon:
+    logo: simple/hackthebox
   features:
     - navigation.footer
     - navigation.top
@@ -86,18 +86,21 @@ copyright: Copyright &copy; 2025 Noah Portman
 nav:
   - 👋 Welcome: index.md
   - 📎 CV: cv/cv.md
-  - 📂 Samples: 
+  - 📂 Samples:
     - Samples Overview: samples/overview.md
     - WCI: samples/wci.md
     - Capstone: samples/capstone.md
     - Wetland: samples/wetland.md
     - Natural Capital: samples/natural_capital.md
   - 📓 Notebooks:
-      - MIT xPRO: notebooks/mitxpro/mitxpro.md
-      - 01. Patient Scheduling: notebooks/mitxpro/01_prescriptive_data.ipynb
-      - 02. Predicting Abnormal Scans: notebooks/mitxpro/02_binary_classification.ipynb
-      - 03. Statistical Modeling: notebooks/mitxpro/03_prescriptive_model.ipynb
-      - 04. Image Classification: notebooks/mitxpro/04_image_classification.ipynb
-      - 05. Predictive Modeling: notebooks/mitxpro/05_XGBoost.ipynb
-      - Portgeo Notebooks: notebooks/portgeo/portgeo.md
+      - MIT xPRO:
+        - Overview: notebooks/mitxpro/mitxpro.md
+        - 01. Patient Scheduling: notebooks/mitxpro/01_prescriptive_data.ipynb
+        - 02. Predicting Abnormal Scans: notebooks/mitxpro/02_binary_classification.ipynb
+        - 03. Statistical Modeling: notebooks/mitxpro/03_prescriptive_model.ipynb
+        - 04. Image Classification: notebooks/mitxpro/04_image_classification.ipynb
+        - 05. Predictive Modeling: notebooks/mitxpro/05_XGBoost.ipynb
+      - Portgeo: notebooks/portgeo/portgeo.md
+      - Other Notebooks:
+        - Integrated Gradients: notebooks/other/integrated_gradients.ipynb
 

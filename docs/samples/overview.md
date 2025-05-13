@@ -1,7 +1,7 @@
 # :material-typewriter: Samples
 
 
-## Overview  
+## Overview
 This collection of applied research projects spans air and water quality, climate policy, and ecological accounting. Through data-driven analysis, remote sensing, and policy evaluation, each study explores sustainable development challenges and proposes actionable solutions for decision-makers, urban planners, and environmental managers.
 
 *Program: Columbia University MS in Sustainability Science (2020–2021)*
@@ -9,17 +9,17 @@ This collection of applied research projects spans air and water quality, climat
 
 ---
 
-## **Water Confidence Index (WCI): Development and Construction**  
+## **Water Confidence Index (WCI): Development and Construction**
 **Focus:** A composite index ranking U.S. public water systems on compliance and reporting transparency.
 
 - **Method:** EPA SDWIS/ECHO data (2011–2020), normalized into Environmental Compliance + Truthful Reporting scores.
-- **Top States:** Indiana, Minnesota, Michigan  
-- **Bottom States:** Texas, California, Mississippi  
+- **Top States:** Indiana, Minnesota, Michigan
+- **Bottom States:** Texas, California, Mississippi
 - **Applications:** Infrastructure funding prioritization, public trust, environmental justice.
 
 ---
 
-## **PM2.5 in NYC Subway System: Air Quality Analysis**  
+## **PM2.5 in NYC Subway System: Air Quality Analysis**
 **Focus:** Measuring underground air pollution in NYC subway lines using low-cost sensors.
 
 - **Devices:** PurpleAir, UPAS, Temptop.
@@ -31,7 +31,7 @@ This collection of applied research projects spans air and water quality, climat
 
 ---
 
-## **Coastal Wetland Eutrophication (Gulf Coast)**  
+## **Coastal Wetland Eutrophication (Gulf Coast)**
 **Focus:** Evaluating how wetlands vs. urbanized coasts impact harmful algal blooms (HABs).
 
 - **Method:** MODIS-Aqua (2005–2020) and Landsat 8 chlorophyll-a anomaly analysis.
@@ -42,7 +42,7 @@ This collection of applied research projects spans air and water quality, climat
 
 ---
 
-## **Breaking the Carbon Budget: Accounting for Natural Capital**  
+## **Breaking the Carbon Budget: Accounting for Natural Capital**
 **Focus:** Redefining economic development by valuing natural capital and reallocating the global carbon budget.
 
 - **Themes:** Paris Agreement compliance, natural vs. human capital, equity in emissions reductions.
@@ -64,11 +64,11 @@ This collection of applied research projects spans air and water quality, climat
 
 ---
 
-## Skills Demonstrated  
-- Environmental indicators and composite index design  
-- Remote sensing (MODIS, Landsat), GIS, and anomaly analysis  
-- Public health impact modeling  
-- Sustainable development policy review  
+## Skills Demonstrated
+- Environmental indicators and composite index design
+- Remote sensing (MODIS, Landsat), GIS, and anomaly analysis
+- Public health impact modeling
+- Sustainable development policy review
 - Communication of technical findings to policymakers and public stakeholders
 
 ---

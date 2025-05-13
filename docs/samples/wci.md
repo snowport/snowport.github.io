@@ -44,7 +44,7 @@ WCI = Average of:
 - Indicators derived from violations, enforcements, and compliance trends.
 - Weighted arithmetic calculations yield EC and TR scores per state.
 - Combined into a 0–1 **WCI score**, where **lower = better**.
-  
+
 
 ### Results
 
@@ -62,7 +62,7 @@ WCI = Average of:
       4.  Mississippi
       5.  Idaho (0.86)
 
-- **Top EPA Region:** Region 5 (Midwest)  
+- **Top EPA Region:** Region 5 (Midwest)
 - **Worst EPA Region:** Region 10 (Northwest)
 
 ### Sensitivity Analyses
