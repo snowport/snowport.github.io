@@ -31,6 +31,8 @@ datasets, cloud computing tasks, and ensuring data security and scalability
 tools, enhancing productivity and supporting team-based software development
 projects
 
+---
+
 ## **Experience**
 
 **MIT xPRO - Professional Certificate in Data Science and Analytics**
@@ -132,15 +134,16 @@ and compendium on AgTech investment space.
 hydrology and microbiology lab equipment.
 * Researched zero-discharge aquaculture system analyzing nitrification efficiency of biofloc.
 
+
+---
+
 ## **Education**
 
-Columbia University
+* #### *Columbia University* - MS, Sustainability Science
 
-  * MS, Sustainability Science
+* #### *The Ohio State University* - BS, Environmental Engineering
+    - Magna Cum Laude
+    - Humanitarian Engineering Scholar
+    - Tau Beta Pi
 
-The Ohio State University
-
-  * BS, Environmental Engineering
-  * Magna Cum Laude
-  * Humanitarian Engineering Scholar
-  * Tau Beta Pi
+---
