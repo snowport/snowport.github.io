@@ -1,18 +1,22 @@
-site_name: noahportman.com
+site_name: Noah Portman
 site_description: A python portfolio
 site_author: noportman
-site_url: https://noahportman.com
+site_url: https://www.noahportman.com
 # repo_url: https://github.com/noportman/noportman.github.io
 theme:
   name: material
   font:
     text: Roboto
     # code: Regular
-  logo: assets/images/logo.png
   favicon: assets/images/favicon.png
+  logo: assets/images/logo.png
   # icon:
+  #   logo: material/nfc
   features:
     - navigation.footer
+    # - navigation.top
+    - navigation.tabs
+  language: en
   palette:
     # Dark Mode
     - scheme: slate
@@ -52,7 +56,6 @@ markdown_extensions:
 plugins:
     - search
     - mkdocstrings
-    # - git-revision-date:
     - git-revision-date-localized:
           enable_creation_date: true
           type: timeago
@@ -65,7 +68,9 @@ plugins:
           ignore: ["conf.py"]
           execute_ignore: ["*ignore.ipynb"]
 
+
 extra:
+  generator: true
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/noportman
@@ -78,15 +83,15 @@ nav:
   - Welcome: index.md
   - CV: cv.md
   - Notebooks:
-      - Notebooks Overview: notebooks.md
+      - Notebooks Overview: notebooks/overview.md
       - 01 - Patient Scheduling: notebooks/01_prescriptive_data.ipynb
       - 02 - Predicting Abnormal Scans: notebooks/02_binary_classification.ipynb
       - 03 - Statistical Modeling: notebooks/03_prescriptive_model.ipynb
       - 04 - Image Classification: notebooks/04_image_classification.ipynb
       - 05 - Predictive Modeling: notebooks/05_XGBoost.ipynb
   - Samples: 
-      - Samples Overview: samples.md
-      - 01 - WCI: wci.md
-      - 02 - Capstone: capstone.md
-      - 03 - Wetland: wetland.md
-      - 04 - Natural Capital: natural_capital.md
+      - Samples Overview: samples/overview.md
+      - 01 - WCI: samples/wci.md
+      - 02 - Capstone: samples/capstone.md
+      - 03 - Wetland: samples/wetland.md
+      - 04 - Natural Capital: samples/natural_capital.md
