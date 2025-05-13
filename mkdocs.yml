@@ -85,7 +85,7 @@ copyright: Copyright &copy; 2025 Noah Portman
 
 nav:
   - 👋 Welcome: index.md
-  - 📎 CV: cv.md
+  - 📎 CV: cv/cv.md
   - 📂 Samples: 
     - Samples Overview: samples/overview.md
     - WCI: samples/wci.md
