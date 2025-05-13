@@ -11,11 +11,12 @@ theme:
   favicon: assets/images/favicon.png
   logo: assets/images/logo.png
   # icon:
-  #   logo: material/nfc
+  #   logo: 
   features:
     - navigation.footer
-    # - navigation.top
+    - navigation.top
     - navigation.tabs
+  custom_dir: "docs/overrides"
   language: en
   palette:
     # Dark Mode
@@ -40,6 +41,9 @@ markdown_extensions:
       base_path: docs/
   - pymdownx.details
   - attr_list
+  - abbr
+  - def_list
+  - footnotes
   - pymdownx.superfences
   - pymdownx.highlight:
       linenums: true
@@ -63,7 +67,7 @@ plugins:
     - mkdocs-jupyter:
           include_source: True
           ignore_h1_titles: True
-          execute: False
+          execute: false
           allow_errors: false
           ignore: ["conf.py"]
           execute_ignore: ["*ignore.ipynb"]
