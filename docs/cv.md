@@ -84,8 +84,7 @@ opportunities in the field.
 
 * Engaged with universities, think tanks, and trade associations as to the
 benefits of the technology.
-* Compiled a database for a range of corporations' supply chains regarding water
-* and carbon reduction commitments.
+* Compiled a database for a range of corporations' supply chains regarding water and carbon reduction commitments.
 * Researched strategies and methods for generating agricultural carbon offsets from carbon
 and methane reductions.
 

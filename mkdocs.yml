@@ -80,16 +80,16 @@ extra:
 copyright: Copyright &copy; 2025 Noah Portman
 
 nav:
-  - Welcome: index.md
-  - CV: cv.md
-  - Notebooks:
+  - 👋 Welcome: index.md
+  - 📎 CV: cv.md
+  - 📓 Notebooks:
       - Notebooks Overview: notebooks/overview.md
       - 01. Patient Scheduling: notebooks/01_prescriptive_data.ipynb
       - 02. Predicting Abnormal Scans: notebooks/02_binary_classification.ipynb
       - 03. Statistical Modeling: notebooks/03_prescriptive_model.ipynb
       - 04. Image Classification: notebooks/04_image_classification.ipynb
       - 05. Predictive Modeling: notebooks/05_XGBoost.ipynb
-  - Samples: 
+  - 📂 Samples: 
       - Samples Overview: samples/overview.md
       - WCI: samples/wci.md
       - Capstone: samples/capstone.md
