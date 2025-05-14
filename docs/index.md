@@ -1,13 +1,7 @@
-# :material-home: Welcome
+# :material-home: Home
 
-!!! info "Note"
+Welcome to my website!  I'm glad you're here! :smile:
 
-    This site is currently under development. Stay tuned!
-
-Hi! :wave:
-
-I'm a data analyst and sustainability scientist with a robust background in
-environmental engineering, sustainability science, and advanced analytics.
 My passion lies in transforming complex datasets into actionable insights,
 enabling organizations to align growth with environmental stewardship.
 
