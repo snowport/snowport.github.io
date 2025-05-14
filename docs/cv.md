@@ -1,7 +1,5 @@
 # :material-database: CV
 
-
-
 ## **Experience**
 
 !!! tip "Sermonix Pharmaceuticals - Data Analysis and Business Development Associate"
@@ -18,8 +16,6 @@
       * Compiled a database for a range of corporations' supply chains regarding water and carbon reduction commitments.
       * Researched strategies and methods for generating agricultural carbon offsets from carbon
       and methane reductions.
-
-
 
 !!! tip "Columbia University - Project Manager, SuSci Integrative Capstone"
 
@@ -45,8 +41,6 @@
       * Developed NPDES outfall permits through field work, data analysis, and QUAL2K modeling.
       * Investigated and drafted SPCC and SWPPP plans for numerous government and private clients.
 
-
-
 ??? tip "eggXYt - Business Development Associate"
 
       * Showcased product demo as Startup Battlefield finalist at TechCrunch Disrupt
@@ -56,15 +50,11 @@
       * Constructed database for competitive intelligence
       and compendium on AgTech investment space.
 
-
-
 ??? tip "Zuckerberg Institute for Water Research - Hydrology Lab Assistant"
 
       * Increased proficiency using centrifuge, microplate photometers, and other
       hydrology and microbiology lab equipment.
       * Researched zero-discharge aquaculture system analyzing nitrification efficiency of biofloc.
-
-
 ---
 
 ## **Education**
@@ -78,8 +68,7 @@
       modeling techniques.
       * Developed proficiency in programming languages and tools
       such as Python, enabling the analysis and interpretation of complex datasets.
-      * Built a portfolio of projects that showcased practical applications of data science in environmental contexts,
-      preparing for a career that merges data analytics with sustainability efforts.
+      * Built a portfolio of projects that showcased practical applications of data science.
 
       **Visit: [MIT xPRO](https://xpro.mit.edu/)**
 
@@ -102,7 +91,6 @@
       **Visit: [Climatebase Fellowship](https://climatebase.org/fellowship)**
 
 !!! warning "Columbia University - MS, Sustainability Science"
-
 
 ??? warning "The Ohio State University - BS, Environmental Engineering"
       

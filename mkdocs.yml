@@ -101,10 +101,10 @@ nav:
   - CV: cv.md
   - Samples:
     - Samples: samples/overview.md
-    - Capstone: samples/capstone.md
-    - WCI: samples/wci.md
-    - Wetland: samples/wetland.md
-    - Natural Capital: samples/natural_capital.md
+    - a. Capstone: samples/capstone.md
+    - b. WCI: samples/wci.md
+    - c. Wetland: samples/wetland.md
+    - d. Natural Capital: samples/natural_capital.md
   - Notebooks:
       - Portfolio:
         - MIT xPRO: notebooks/mitxpro/about.md
