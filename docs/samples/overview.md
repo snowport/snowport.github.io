@@ -4,7 +4,7 @@
 ## Overview
 This collection of applied research projects spans air and water quality, climate policy, and ecological accounting. Through data-driven analysis, remote sensing, and policy evaluation, each study explores sustainable development challenges and proposes actionable solutions for decision-makers, urban planners, and environmental managers.
 
-*Program: Columbia University MS in Sustainability Science (2020–2021)*
+!!! abstract "*Program: Columbia University, MS in Sustainability Science (2020–2021)*"
 
 
 ---

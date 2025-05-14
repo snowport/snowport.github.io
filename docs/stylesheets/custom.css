@@ -1,0 +1,19 @@
+/* Style the outer box */
+.md-typeset details {
+  border: 2px solid #4F46E5;  /* Indigo border */
+  border-radius: 6px;
+  background-color: #f0f4ff;  /* Light indigo background */
+  padding: 0.8em;
+  margin-bottom: 1em;
+}
+
+/* Style the toggle header */
+.md-typeset details summary {
+  font-weight: bold;
+  cursor: pointer;
+  list-style: none;
+  color: #080808; /* Dark indigo text */
+  position: relative;
+  padding-left: 1.2em;
+}
+

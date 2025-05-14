@@ -5,7 +5,7 @@ This portfolio showcases projects and insights from the MIT xPRO Professional Ce
 
 This program emphasized hands-on learning and real-world applications, culminating in projects that address current challenges across industries.
 
-You can learn more about MIT xPRO courses and programs [here](https://xpro.mit.edu/).
+!!! bug "You can learn more about MIT xPRO courses and programs [here](https://xpro.mit.edu/)."
 
 ---
 

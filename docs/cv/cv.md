@@ -1,37 +1,6 @@
 # :material-database: CV
 
 
-## **Skills**
-
-**Programming Languages & Data Analysis**
-
-* Proficient in `Python`, `R`, `SQL`, and `MATLAB`, with a strong ability to conduct
-complex data analysis, statistical modeling, and predictive analytics
-
-**Geospatial Analysis**
-
-* Skilled in Geographic Information Systems (GIS), `Google Earth Engine`, and
-`CADD`, enabling advanced analysis of spatial data for environmental assessments
-and planning
-
-**Data Visualization & Reporting**
-
-* Experienced in using `Tableau`, `Microsoft 365` (Excel, Power BI), and `Snowflake`
-for creating compelling data visualizations, dashboards, and reports to
-communicate insights effectively
-
-**Cloud Computing & Database Management**
-
-* Competent in AWS Cloud services, facilitating the management of large
-datasets, cloud computing tasks, and ensuring data security and scalability
-
-**Software & Development Tools**
-
-* Adept in using integrated development environments (IDEs) and collaboration
-tools, enhancing productivity and supporting team-based software development
-projects
-
----
 
 ## **Experience**
 
@@ -144,5 +113,37 @@ hydrology and microbiology lab equipment.
     - Magna Cum Laude
     - Humanitarian Engineering Scholar
     - Tau Beta Pi
+
+---
+
+## **Skills**
+
+??? success "**Programming Languages & Data Analysis**"
+
+      * Proficient in `Python`, `R`, `SQL`, and `MATLAB`, with a strong ability to conduct
+      complex data analysis, statistical modeling, and predictive analytics
+
+??? success "**Geospatial Analysis**"
+
+      * Skilled in Geographic Information Systems (GIS), `Google Earth Engine`, and
+      `CADD`, enabling advanced analysis of spatial data for environmental assessments
+      and planning
+
+??? success "**Data Visualization & Reporting**"
+
+      * Experienced in using `Tableau`, `Microsoft 365` (Excel, Power BI), and `Snowflake`
+      for creating compelling data visualizations, dashboards, and reports to
+      communicate insights effectively
+
+??? success "**Cloud Computing & Database Management**"
+
+      * Competent in AWS Cloud services, facilitating the management of large
+      datasets, cloud computing tasks, and ensuring data security and scalability
+
+??? success "**Software & Development Tools**"
+
+      * Adept in using integrated development environments (IDEs) and collaboration
+      tools, enhancing productivity and supporting team-based software development
+      projects
 
 ---

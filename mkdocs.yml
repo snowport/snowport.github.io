@@ -14,6 +14,9 @@ theme:
     # logo: simple/hackthebox
     # logo: fontawesome/brands/connectdevelop
     logo: simple/onnx
+    admonition:
+      abstract: fontawesome/solid/book
+      bug: fontawesome/solid/star
   features:
     - navigation.footer
     - navigation.top
@@ -54,12 +57,8 @@ markdown_extensions:
   - pymdownx.inlinehilite:
   - pymdownx.snippets:
       base_path: docs/
-  - pymdownx.superfences:
   - pymdownx.tabbed:
       alternate_style: true
-  # - pymdownx.arithmatex:
-  #     inline_syntax: ['dollar']
-  #     generic: true
 
 plugins:
     - search
@@ -87,6 +86,7 @@ extra:
 
 extra_css:
   - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css
+  # - stylesheets/custom.css
 
 extra_javascript:
   - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js
@@ -100,8 +100,8 @@ nav:
   - CV: cv/cv.md
   - Samples:
     - Samples Overview: samples/overview.md
-    - WCI: samples/wci.md
     - Capstone: samples/capstone.md
+    - WCI: samples/wci.md
     - Wetland: samples/wetland.md
     - Natural Capital: samples/natural_capital.md
   - Notebooks:
