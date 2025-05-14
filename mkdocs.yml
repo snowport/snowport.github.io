@@ -86,7 +86,7 @@ extra:
 
 extra_css:
   - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css
-  # - stylesheets/custom.css
+  - stylesheets/custom.css
 
 extra_javascript:
   - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js
@@ -99,7 +99,7 @@ nav:
   - Welcome: index.md
   - CV: cv/cv.md
   - Samples:
-    - Samples Overview: samples/overview.md
+    - Samples: samples/overview.md
     - Capstone: samples/capstone.md
     - WCI: samples/wci.md
     - Wetland: samples/wetland.md
