@@ -82,18 +82,21 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/noah-portman/
 
+# extra_css:
+#   - css/styles.css
+
 copyright: Copyright &copy; 2025 Noah Portman
 
 nav:
-  - 🪩 Welcome: index.md
-  - 📎 CV: cv/cv.md
-  - 📂 Samples:
+  - Welcome: index.md
+  - CV: cv/cv.md
+  - Samples:
     - Samples Overview: samples/overview.md
     - WCI: samples/wci.md
     - Capstone: samples/capstone.md
     - Wetland: samples/wetland.md
     - Natural Capital: samples/natural_capital.md
-  - 📓 Notebooks:
+  - Notebooks:
       - MIT xPRO:
         - Overview: notebooks/mitxpro/mitxpro.md
         - 01. Patient Scheduling: notebooks/mitxpro/01_prescriptive_data.ipynb
