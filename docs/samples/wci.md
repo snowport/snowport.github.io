@@ -1,22 +1,22 @@
 
-## The Water Confidence Index (WCI): Its Development and Construction
+# The Water Confidence Index (WCI): Its Development and Construction
 *April 26, 2021*
 
 ![](https://upload.wikimedia.org/wikipedia/commons/9/96/Iowa_-_American_Water_-_Davenport_Water_Tower_%2824259031639%29.jpg)
 
 
-### Objective
+## Objective
 To develop an environmental composite index—**Water Confidence Index (WCI)**—that measures and ranks the performance of large U.S. public water systems (PWS) based on **environmental compliance** and **truthful reporting**.
 
 
-### Motivation
+## Motivation
 
 - No existing index ranks U.S. water utilities by environmental health performance.
 - Infrastructure challenges include underfunding, aging pipes, cybersecurity threats, and increasing violations.
 - The index supports transparency, prioritization for funding, and accountability in public water infrastructure.
 
 
-### WCI Structure
+## WCI Structure
 
 WCI = Average of:
 - **Environmental Compliance (EC)**:
@@ -31,7 +31,7 @@ WCI = Average of:
 **Normalization:** Min-max method used to scale inputs.
 
 
-### Data Sources
+## Data Sources
 
 - **EPA ECHO / SDWIS datasets** (2011–2020)
 - **Filtered to large & very large PWS** (serving >10,000 people)
@@ -39,14 +39,14 @@ WCI = Average of:
 - **Population data**: U.S. Census Bureau estimates
 
 
-### Methodology
+## Methodology
 
 - Indicators derived from violations, enforcements, and compliance trends.
 - Weighted arithmetic calculations yield EC and TR scores per state.
 - Combined into a 0–1 **WCI score**, where **lower = better**.
 
 
-### Results
+## Results
 
 - **Top-performing states** (lowest WCI scores):
       1. Indiana (0.03)
@@ -65,14 +65,14 @@ WCI = Average of:
 - **Top EPA Region:** Region 5 (Midwest)
 - **Worst EPA Region:** Region 10 (Northwest)
 
-### Sensitivity Analyses
+## Sensitivity Analyses
 
 - **SA-1:** Reweighted EC to focus on health violations → minor rank shifts.
 - **SA-2:** Reweighted TR to focus on public health violations → larger shifts for lower-ranking states.
 - **SA-3:** Equal weighting of all inputs → stable top/bottom rankings; mid-range states more sensitive.
 
 
-### Limitations & Future Directions
+## Limitations & Future Directions
 
 - Does not include small PWS or private wells.
 - TR score may overemphasize certain violations due to uneven frequency.
@@ -82,7 +82,7 @@ WCI = Average of:
     - Link violations to health impacts or cost estimates.
     - Visualize results by EPA Region for policy impact.
 
-### Conclusion
+## Conclusion
 
 - The WCI provides a **transparent, data-driven ranking** of public water utilities based on SDWA compliance.
 - It can inform **public awareness**, **EPA oversight**, and **infrastructure funding allocation**.

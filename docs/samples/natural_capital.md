@@ -1,21 +1,21 @@
-## Accounting for Natural Capital - Breaking the Carbon Budget
+# Accounting for Natural Capital - Breaking the Carbon Budget
 *Winter 2020*
 
 ![](https://carbonherald.com/wp-content/uploads/2021/09/enviromental-law-edited-1024x683-1.jpg)
 
 
-### Objective
+## Objective
 To explore how rethinking **natural and human capital accounting** can inform fairer and more sustainable global carbon budget policies, highlighting the need for equitable climate action through better asset valuation and policy alignment.
 
 
-### Key Concepts
+## Key Concepts
 
 - **Carbon Budget:** Global limit of 850–1550 GtCO₂ to stay below 2°C warming.
 - **Natural Capital:** Earth’s stock of resources and ecosystems (e.g. air, water, land, biodiversity).
 - **Human Capital:** Educated, healthy, skilled populations driving sustainable development.
 - **Disparity:** Only a few of the 195 Paris Agreement signatories are on track to meet targets.
 
-### Data & References
+## Data & References
 
 - **Reports Cited:**
   - World Bank’s *Changing Wealth of Nations 2018*
@@ -24,7 +24,7 @@ To explore how rethinking **natural and human capital accounting** can inform fa
   - Climate Action Tracker (CAT)
 
 
-### Capital Stock Analysis
+## Capital Stock Analysis
 
 - **Natural Capital undervalued** → exploited beyond replenishment (Tragedy of the Commons).
 - **Accounting Frameworks:**
@@ -34,7 +34,7 @@ To explore how rethinking **natural and human capital accounting** can inform fa
   - Global wealth ↑ 66% from 1995–2014; human capital = 2/3 of global wealth.
   - Natural capital = 9% globally, but nearly 50% of low-income countries' wealth.
 
-### Country Comparisons & Leadership
+## Country Comparisons & Leadership
 
 - **Top Performers:**
   - **Morocco:** 42–52% renewable energy by 2030; Noor solar plant = global model.
@@ -44,7 +44,7 @@ To explore how rethinking **natural and human capital accounting** can inform fa
 - **Lagging Nations:** Developed countries with high historical emissions.
 
 
-### Policy & Effort-Sharing Frameworks
+## Policy & Effort-Sharing Frameworks
 
 - **Equity Principles Used for Carbon Budget Allocation:**
   - Grandfathering (GF)
@@ -57,14 +57,14 @@ To explore how rethinking **natural and human capital accounting** can inform fa
 - **Conclusion:** Equity-driven models often result in **negative budgets** for wealthy nations, implying the need for urgent and ambitious policy reform.
 
 
-### Case Studies & Models
+## Case Studies & Models
 
 - **Three Gorges Reservoir (China):** Demonstrated negative decoupling between land use and sustainability; emphasized need for stronger ecological policies.
 - **Zhang et al.:** Introduced a formula to measure sustainability via land capital utilization ratio (stock vs. flow).
 - **van den Berg et al.:** Compared seven effort-sharing models; illustrated massive implications on fair carbon budget distribution.
 
 
-### Recommendations
+## Recommendations
 
 - Recognize **natural capital as core to wealth and development**.
 - Encourage **mainstreaming** of natural capital accounting in government and business decisions.
@@ -73,7 +73,7 @@ To explore how rethinking **natural and human capital accounting** can inform fa
 - Pursue coordinated international response, particularly for climate-vulnerable regions.
 
 
-### Conclusion
+## Conclusion
 
 - Rethinking economic progress by incorporating **natural capital valuation** is critical.
 - **Equity, transparency, and long-term vision** must guide global carbon budget negotiations.
