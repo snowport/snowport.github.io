@@ -107,7 +107,7 @@ nav:
     - Natural Capital: samples/natural_capital.md
   - Notebooks:
       - Portfolio:
-        - About MIT xPRO: notebooks/mitxpro/mitxpro.md
+        - About MIT xPRO: notebooks/mitxpro/about.md
         - 1. Patient Scheduling: notebooks/mitxpro/01_prescriptive_data.ipynb
         - 2. Predicting Abnormal Scans: notebooks/mitxpro/02_binary_classification.ipynb
         - 3. Statistical Modeling: notebooks/mitxpro/03_prescriptive_model.ipynb
