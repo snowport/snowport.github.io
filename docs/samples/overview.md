@@ -1,21 +1,11 @@
 # :material-typewriter: Samples
 
 
-## Overview
+## **Overview**
 This collection of applied research projects spans air and water quality, climate policy, and ecological accounting. Through data-driven analysis, remote sensing, and policy evaluation, each study explores sustainable development challenges and proposes actionable solutions for decision-makers, urban planners, and environmental managers.
 
 !!! abstract "*Program: Columbia University, MS in Sustainability Science (2020–2021)*"
 
-
----
-
-## **Water Confidence Index (WCI): Development and Construction**
-**Focus:** A composite index ranking U.S. public water systems on compliance and reporting transparency.
-
-- **Method:** EPA SDWIS/ECHO data (2011–2020), normalized into Environmental Compliance + Truthful Reporting scores.
-- **Top States:** Indiana, Minnesota, Michigan
-- **Bottom States:** Texas, California, Mississippi
-- **Applications:** Infrastructure funding prioritization, public trust, environmental justice.
 
 ---
 
@@ -28,6 +18,16 @@ This collection of applied research projects spans air and water quality, climat
     - Many stations exceed EPA 24-hr standard (35 µg/m³).
     - Commuters and workers face significant health risks.
 - **Recommendation:** Build a sensor network and revise ventilation policy.
+
+---
+
+## **Water Confidence Index (WCI): Development and Construction**
+**Focus:** A composite index ranking U.S. public water systems on compliance and reporting transparency.
+
+- **Method:** EPA SDWIS/ECHO data (2011–2020), normalized into Environmental Compliance + Truthful Reporting scores.
+- **Top States:** Indiana, Minnesota, Michigan
+- **Bottom States:** Texas, California, Mississippi
+- **Applications:** Infrastructure funding prioritization, public trust, environmental justice.
 
 ---
 
@@ -53,7 +53,7 @@ This collection of applied research projects spans air and water quality, climat
 
 ---
 
-## Common Threads
+## **Common Threads**
 
 | Theme                 | Description                                                                 |
 |----------------------|-----------------------------------------------------------------------------|
@@ -64,7 +64,7 @@ This collection of applied research projects spans air and water quality, climat
 
 ---
 
-## Skills Demonstrated
+## **Skills Demonstrated**
 - Environmental indicators and composite index design
 - Remote sensing (MODIS, Landsat), GIS, and anomaly analysis
 - Public health impact modeling

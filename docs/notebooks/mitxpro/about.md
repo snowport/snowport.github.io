@@ -1,4 +1,4 @@
-# :simple-docsdotrs: About MITx PRO
+# :simple-docsdotrs: MITx PRO
 
 
 This portfolio showcases projects and insights from the MIT xPRO Professional Certificate in Data Science and Analytics program.
@@ -9,7 +9,7 @@ This program emphasized hands-on learning and real-world applications, culminati
 
 ---
 
-## About the Program
+## **About the Program**
 The MIT xPRO Professional Certificate in Data Science and Analytics is a rigorous, industry-aligned curriculum designed to develop advanced skills in:
 
   - **Statistical Analysis**: Leveraging data to identify trends, correlations, and actionable insights.
