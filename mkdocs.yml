@@ -12,11 +12,12 @@ theme:
   # logo: assets/images/logo.png
   icon:
     # logo: simple/hackthebox
-    # logo: fontawesome/brands/connectdevelop
     logo: simple/onnx
     admonition:
       abstract: fontawesome/solid/book
       bug: fontawesome/solid/star
+      tip: octicons/bookmark-filled-16
+      warning: fontawesome/solid/certificate
   features:
     - navigation.footer
     - navigation.top
@@ -97,7 +98,7 @@ copyright: Copyright &copy; 2025 Noah Portman
 
 nav:
   - Welcome: index.md
-  - CV: cv/cv.md
+  - CV: cv.md
   - Samples:
     - Samples: samples/overview.md
     - Capstone: samples/capstone.md
