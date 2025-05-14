@@ -1,4 +1,4 @@
-# :simple-docsdotrs: Notebooks
+# :simple-docsdotrs: About MITx PRO
 
 
 This portfolio showcases projects and insights from the MIT xPRO Professional Certificate in Data Science and Analytics program.

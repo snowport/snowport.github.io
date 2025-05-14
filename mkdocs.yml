@@ -25,7 +25,7 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Dark mode
-      primary: indigo
+      primary: black
       accent: indigo
 
     # Light Mode
@@ -57,6 +57,9 @@ markdown_extensions:
   - pymdownx.superfences:
   - pymdownx.tabbed:
       alternate_style: true
+  # - pymdownx.arithmatex:
+  #     inline_syntax: ['dollar']
+  #     generic: true
 
 plugins:
     - search
@@ -82,8 +85,13 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/noah-portman/
 
-# extra_css:
-#   - css/styles.css
+extra_css:
+  - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js
+  - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js
+  - js/render-katex.js
 
 copyright: Copyright &copy; 2025 Noah Portman
 
@@ -97,14 +105,14 @@ nav:
     - Wetland: samples/wetland.md
     - Natural Capital: samples/natural_capital.md
   - Notebooks:
-      - MIT xPRO:
-        - Overview: notebooks/mitxpro/mitxpro.md
-        - 01. Patient Scheduling: notebooks/mitxpro/01_prescriptive_data.ipynb
-        - 02. Predicting Abnormal Scans: notebooks/mitxpro/02_binary_classification.ipynb
-        - 03. Statistical Modeling: notebooks/mitxpro/03_prescriptive_model.ipynb
-        - 04. Image Classification: notebooks/mitxpro/04_image_classification.ipynb
-        - 05. Predictive Modeling: notebooks/mitxpro/05_XGBoost.ipynb
+      - Portfolio:
+        - About MIT xPRO: notebooks/mitxpro/mitxpro.md
+        - 1. Patient Scheduling: notebooks/mitxpro/01_prescriptive_data.ipynb
+        - 2. Predicting Abnormal Scans: notebooks/mitxpro/02_binary_classification.ipynb
+        - 3. Statistical Modeling: notebooks/mitxpro/03_prescriptive_model.ipynb
+        - 4. Image Classification: notebooks/mitxpro/04_image_classification.ipynb
+        - 5. Predictive Modeling: notebooks/mitxpro/05_XGBoost.ipynb
       - Portgeo: notebooks/portgeo/portgeo.md
-      - Other Notebooks:
+      - Other:
         - Integrated Gradients: notebooks/other/integrated_gradients.ipynb
 

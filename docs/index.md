@@ -1,4 +1,4 @@
-??? tip "Under Development"
+??? info "Under Development"
 
     This site is currently under construction. Stay tuned!
 
