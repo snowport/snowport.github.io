@@ -1,9 +1,8 @@
+# :material-home: Hey there!
+
 !!! info "Note"
 
     This site is currently under development. Stay tuned!
-
-
-# :material-home: Hey there!
 
 I'm a data analyst and sustainability scientist with a robust background in
 environmental engineering, sustainability science, and advanced analytics.
