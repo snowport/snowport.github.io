@@ -4,52 +4,14 @@
 
 ## **Experience**
 
-??? tip "MIT xPRO - Professional Certificate in Data Science and Analytics"
-
-      * Completed an intensive program designed to enhance data science skills,
-      focusing on analytics and machine learning applications.
-      * Completed comprehensive coursework covering essential topics such as statistical
-      analysis, data visualization, machine learning algorithms, and predictive
-      modeling techniques.
-      * Developed proficiency in programming languages and tools
-      such as Python, enabling the analysis and interpretation of complex datasets.
-      * Built a portfolio of projects that showcased practical applications of data science in environmental contexts,
-      preparing for a career that merges data analytics with sustainability efforts.
-
-      **Visit: [MIT xPRO](https://xpro.mit.edu/)**
-
-
-
-??? tip "Sermonix Pharmaceuticals - Data Analysis and Business Development Associate"
+!!! tip "Sermonix Pharmaceuticals - Data Analysis and Business Development Associate"
 
       * Developed patient databases for ongoing clinical trials, progress reports, and data visualizations.
       * Increased efficiencies by recognizing opportunities for process improvement and new system integration.
       * Generated valuable insights on competitive intelligence leveraging web-based applications and life science
       databases.​
 
-
-
-??? tip "Climatebase Fellowship - Cohort 3 Fellow"
-
-      * Selected for a prestigious fellowship, enhancing expertise in climate policy,
-      strategic environmental planning, and innovative solution development.
-      * Distinguished as a top performer in a cohort of emerging leaders in climate
-      policy and sustainability.
-      * Developed and executed a capstone project utilizing
-      geospatial analysis to assess biodiversity and water quality, showcasing
-      innovation in environmental research.
-      * Enhanced strategic planning skills,
-      focusing on the development of actionable and impactful environmental policies
-      and initiatives.
-      * Engaged with a network of professionals and experts in
-      sustainability, broadening perspective and fostering collaborative
-      opportunities in the field.
-
-      **Visit: [Climatebase Fellowship](https://climatebase.org/fellowship)**
-
-
-
-??? tip "N-Drip - Sustainability Associate"
+!!! tip "N-Drip - Sustainability Associate"
 
       * Engaged with universities, think tanks, and trade associations as to the
       benefits of the technology.
@@ -59,7 +21,7 @@
 
 
 
-??? tip "Columbia University - Project Manager, SuSci Integrative Capstone"
+!!! tip "Columbia University - Project Manager, SuSci Integrative Capstone"
 
       * Led study to quantify air pollution on subway platforms across New York City
       boroughs by deploying handheld particulate matter air sampling devices.
@@ -107,10 +69,42 @@
 
 ## **Education**
 
+!!! warning "MIT xPRO - Professional Certificate in Data Science and Analytics"
+
+      * Completed an intensive program designed to enhance data science skills,
+      focusing on analytics and machine learning applications.
+      * Completed comprehensive coursework covering essential topics such as statistical
+      analysis, data visualization, machine learning algorithms, and predictive
+      modeling techniques.
+      * Developed proficiency in programming languages and tools
+      such as Python, enabling the analysis and interpretation of complex datasets.
+      * Built a portfolio of projects that showcased practical applications of data science in environmental contexts,
+      preparing for a career that merges data analytics with sustainability efforts.
+
+      **Visit: [MIT xPRO](https://xpro.mit.edu/)**
+
+!!! warning "Climatebase Fellowship - Cohort 3 Fellow"
+
+      * Selected for a prestigious fellowship, enhancing expertise in climate policy,
+      strategic environmental planning, and innovative solution development.
+      * Distinguished as a top performer in a cohort of emerging leaders in climate
+      policy and sustainability.
+      * Developed and executed a capstone project utilizing
+      geospatial analysis to assess biodiversity and water quality, showcasing
+      innovation in environmental research.
+      * Enhanced strategic planning skills,
+      focusing on the development of actionable and impactful environmental policies
+      and initiatives.
+      * Engaged with a network of professionals and experts in
+      sustainability, broadening perspective and fostering collaborative
+      opportunities in the field.
+
+      **Visit: [Climatebase Fellowship](https://climatebase.org/fellowship)**
+
 !!! warning "Columbia University - MS, Sustainability Science"
 
 
-??? warning "The Ohio State University - BS, Environmental Engineering"
+!!! warning "The Ohio State University - BS, Environmental Engineering"
       
       :material-tag: `Magna Cum Laude`   
       :material-tag: `Humanitarian Engineering Scholar`     
