@@ -20,11 +20,13 @@ To develop an environmental composite indexâ€”**Water Confidence Index (WCI)**â€
 
 WCI = Average of:
 - **Environmental Compliance (EC)**:
+  
   - Health-based violations (40%)
   - Serious violator trends (40%)
   - Violations per site visit (20%)
 
 - **Truthful Reporting (TR)**:
+  
   - Public notice + monitoring violations (40%)
   - Enforcement-to-violation ratio (60%)
 
@@ -48,22 +50,30 @@ WCI = Average of:
 
 ## Results
 
-- **Top-performing states** (lowest WCI scores):
-      1. Indiana (0.03)
-      2. North Dakota
-      3. Minnesota
-      4. South Dakota
-      5. Michigan
+**Top-performing states** (lowest WCI scores):
+     
+| Rank | State         | 
+|------|---------------|
+| 1    | Indiana --> (0.03) |     
+| 2    | North Dakota  |         
+| 3    | Minnesota     |         
+| 4    | South Dakota  |         
+| 5    | Michigan      |         
 
-- **Lowest-performing states** (highest WCI scores):
-      1.  Arizona
-      2.  Texas
-      3.  California
-      4.  Mississippi
-      5.  Idaho (0.86)
 
-- **Top EPA Region:** Region 5 (Midwest)
-- **Worst EPA Region:** Region 10 (Northwest)
+**Lowest-performing states** (highest WCI scores):
+    
+| Rank | State       | 
+|------|-------------|
+| 46   | Arizona     |       
+| 47   | Texas       |       
+| 48   | California  |       
+| 49   | Mississippi |       
+| 50   | Idaho   --> (0.86)    | 
+
+**Top EPA Region:** Region 5 (Midwest)
+
+**Worst EPA Region:** Region 10 (Northwest)
 
 ## Sensitivity Analyses
 
