@@ -2,7 +2,7 @@ site_name: Noah Portman
 site_description: A python portfolio
 site_author: noportman
 site_url: https://www.noahportman.com
-# repo_url: https://github.com/noportman/noportman.github.io
+# repo_url: https://github.com/snowport/snowport.github.io
 theme:
   name: material
   font:
@@ -81,7 +81,7 @@ extra:
   generator: true
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/noportman
+      link: https://github.com/snowport
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/noah-portman/
 
