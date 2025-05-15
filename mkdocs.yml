@@ -8,11 +8,12 @@ theme:
   font:
     text: Roboto
     # code: Regular
-  favicon: https://onnx.ai/images/icon/icon-ONNX-logo.svg
+  favicon: assets/images/favicon.ico
+  # favicon: https://onnx.ai/images/icon/icon-ONNX-logo.svg
   # logo: assets/images/logo.png
   icon:
-    # logo: simple/hackthebox
-    logo: simple/onnx
+    logo: simple/Novu
+    # logo: simple/onnx
     admonition:
       abstract: fontawesome/solid/book
       bug: fontawesome/solid/star
