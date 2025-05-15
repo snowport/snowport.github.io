@@ -29,7 +29,7 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Dark mode
-      primary: white
+      primary: black
       accent: indigo
 
     # Light Mode
