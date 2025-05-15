@@ -92,12 +92,24 @@
 
 !!! warning "Columbia University - MS, Sustainability Science"
 
-??? warning "The Ohio State University - BS, Environmental Engineering"
+!!! warning "The Ohio State University - BS, Environmental Engineering"
       
       :material-tag: `Magna Cum Laude`   
       :material-tag: `Humanitarian Engineering Scholar`     
       :material-tag: `Tau Beta Pi`
 
+      - Teacher's Assistant, Department of Environmental Engineering
+      - Research Intern, Department of Ecological Engineering
+
+??? warning "Ben-Gurion University of the Negev"
+
+      - Semester-long study abroad focused on sustainable development, natural resource management, and Middle East diplomacy
+
+??? warning "Engineers Without Borders (Shantou University & Technion University)"
+
+      - 6-week Summer study abroad program
+      - Completed multidisciplinary engineering-related workshops, discussions, and language classes.
+      - Led a comprehensive health and environmental field assessment of a Chinese village.
 ---
 
 ## Skills
