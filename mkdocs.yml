@@ -8,7 +8,7 @@ theme:
   font:
     text: Roboto
     # code: Regular
-  # favicon: assets/images/favicon.png
+  favicon: https://onnx.ai/images/icon/icon-ONNX-logo.svg
   # logo: assets/images/logo.png
   icon:
     # logo: simple/hackthebox
@@ -100,7 +100,7 @@ nav:
   - Home: index.md
   - CV: cv.md
   - Samples:
-    - Samples: samples/overview.md
+    - Summary: samples/summary.md
     - Capstone: samples/capstone.md
     - WCI: samples/wci.md
     - Wetland: samples/wetland.md
@@ -113,7 +113,7 @@ nav:
         - 3. Statistical Modeling: notebooks/mitxpro/03_prescriptive_model.ipynb
         - 4. Image Classification: notebooks/mitxpro/04_image_classification.ipynb
         - 5. Predictive Modeling: notebooks/mitxpro/05_XGBoost.ipynb
-      - Portgeo: notebooks/portgeo/portgeo.md
+      - Portgeo: notebooks/portgeo.md
       - Other:
         - Integrated Gradients: notebooks/other/integrated_gradients.ipynb
 

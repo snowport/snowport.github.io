@@ -19,16 +19,17 @@ To develop an environmental composite indexâ€”**Water Confidence Index (WCI)**â€
 ## WCI Structure
 
 WCI = Average of:
-- **Environmental Compliance (EC)**:
-  
-  - Health-based violations (40%)
-  - Serious violator trends (40%)
-  - Violations per site visit (20%)
 
-- **Truthful Reporting (TR)**:
+1. **Environmental Compliance (EC)**:
   
-  - Public notice + monitoring violations (40%)
-  - Enforcement-to-violation ratio (60%)
+    - Health-based violations (40%)
+    - Serious violator trends (40%)
+    - Violations per site visit (20%)
+
+2. **Truthful Reporting (TR)**:
+  
+     - Public notice + monitoring violations (40%)
+     - Enforcement-to-violation ratio (60%)
 
 **Normalization:** Min-max method used to scale inputs.
 
@@ -54,7 +55,7 @@ WCI = Average of:
      
 | Rank | State         | 
 |------|---------------|
-| 1    | Indiana --> (0.03) |     
+| 1    | Indiana --> (**0.03**) |     
 | 2    | North Dakota  |         
 | 3    | Minnesota     |         
 | 4    | South Dakota  |         
@@ -69,7 +70,7 @@ WCI = Average of:
 | 47   | Texas       |       
 | 48   | California  |       
 | 49   | Mississippi |       
-| 50   | Idaho   --> (0.86)    | 
+| 50   | Idaho   --> (**0.86**)    | 
 
 **Top EPA Region:** Region 5 (Midwest)
 
