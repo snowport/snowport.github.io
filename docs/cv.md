@@ -1,6 +1,6 @@
 # :material-database: CV
 
-## **Experience**
+## Experience
 
 !!! tip "Sermonix Pharmaceuticals - Data Analysis and Business Development Associate"
 
@@ -57,7 +57,7 @@
       * Researched zero-discharge aquaculture system analyzing nitrification efficiency of biofloc.
 ---
 
-## **Education**
+## Education
 
 !!! warning "MIT xPRO - Professional Certificate in Data Science and Analytics"
 
@@ -100,7 +100,7 @@
 
 ---
 
-## **Skills**
+## Skills
 
 ??? success "**Programming Languages & Data Analysis**"
 
