@@ -117,4 +117,5 @@ nav:
       - Portgeo: notebooks/portgeo.md
       - Other:
         - Integrated Gradients: notebooks/other/integrated_gradients.ipynb
+        - Regression: notebooks/other/regression.ipynb
 
