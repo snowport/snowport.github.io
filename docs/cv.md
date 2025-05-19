@@ -152,13 +152,10 @@
 <small> 
 
 - Damodaran, S., et al. (2023). *Open-label, phase II, multicenter study of lasofoxifene plus abemaciclib for treating women with metastatic ER+/HER2− breast cancer and an ESR1 mutation after disease progression on prior therapies: ELAINE 2*. *Annals of Oncology*, 34(12), 1131-1140. [https://doi.org/10.1016/j.annonc.2023.09.3103](https://doi.org/10.1016/j.annonc.2023.09.3103) 
-      - *Acknowledged for data analysis support and technical assistance.* 
   
 - Goetz, M.P., et al. (2023). *Lasofoxifene versus fulvestrant for ER+/HER2− metastatic breast cancer with an ESR1 mutation: Results from the randomized, phase II ELAINE 1 trial*. *Annals of Oncology*, 34(10), 1141–1151. [https://doi.org/10.1016/j.annonc.2023.09.3104](https://doi.org/10.1016/j.annonc.2023.09.3104) 
-      - *Acknowledged for data analysis support and technical assistance.* 
 
 - Rey-Sanchez, A. C., Bohrer, G., Morin, T. H., Shlomo, D., & Mirfenderesgi, G. (2017). *Evaporation and CO₂ fluxes in a coastal reef: An eddy covariance approach*. *Ecosystem Health and Sustainability*, 3(1), 1392830. [https://doi.org/10.1080/20964129.2017.1392830](https://doi.org/10.1080/20964129.2017.1392830)  
-      - *Acknowledged for contributions to field data support and instrumentation setup.* 
 
 </small>
 
