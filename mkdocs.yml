@@ -118,4 +118,5 @@ nav:
       - Other:
         - Integrated Gradients: notebooks/other/integrated_gradients.ipynb
         - Regression: notebooks/other/regression.ipynb
+        - Geemap Workshop: notebooks/other/geemap-workshop.ipynb
 
