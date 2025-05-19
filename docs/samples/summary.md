@@ -7,7 +7,7 @@ This collection of applied research projects spans air and water quality, climat
 
 ---
 === "🚇 Capstone"
- 
+
     :material-file: [**PM2.5 in NYC Subway System: Air Quality Analysis**](capstone.md)
 
     - **Focus:** Measuring underground air pollution in NYC subway lines using low-cost sensors.
@@ -31,7 +31,7 @@ This collection of applied research projects spans air and water quality, climat
 === "🌊 Wetland"
 
     :material-file: [**Coastal Wetland Eutrophication (Gulf Coast)**](wetland.md)
-    
+
     - **Focus:** Evaluating how wetlands vs. urbanized coasts impact harmful algal blooms (HABs).
     - **Method:** MODIS-Aqua (2005–2020) and Landsat 8 chlorophyll-a anomaly analysis.
     - **Findings:**
@@ -42,7 +42,7 @@ This collection of applied research projects spans air and water quality, climat
 === "🌳 Natural Capital"
 
     :material-file: [**Breaking the Carbon Budget: Accounting for Natural Capital**](natural_capital.md)
-    
+
     - **Focus:** Redefining economic development by valuing natural capital and reallocating the global carbon budget.
     - **Themes:** Paris Agreement compliance, natural vs. human capital, equity in emissions reductions.
     - **Key Insights:**

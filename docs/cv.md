@@ -93,9 +93,9 @@
 !!! warning "Columbia University - MS, Sustainability Science"
 
 !!! warning "The Ohio State University - BS, Environmental Engineering"
-      
-      :material-tag: `Magna Cum Laude`   
-      :material-tag: `Humanitarian Engineering Scholar`     
+
+      :material-tag: `Magna Cum Laude`
+      :material-tag: `Humanitarian Engineering Scholar`
       :material-tag: `Tau Beta Pi`
 
       - Teacher's Assistant, Department of Environmental Engineering

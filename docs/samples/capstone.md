@@ -11,13 +11,13 @@ To assess particulate matter (PM2.5) concentrations in NYC’s subway system usi
 ## Methods
 
 **Devices Used:**
-  
+
   - **PurpleAir PA-II-SD**: Low-cost laser particle counter.
   - **UPAS**: Gravimetric filter-based sampler used for calibration.
   - **Temptop M2000C**: Nephelometer for real-time PM and CO₂ data.
 
 **Data Collection:**
-  
+
   - 25+ subway ride events.
   - Locations: Manhattan, Staten Island, Brooklyn, Queens.
   - Two strategies: (a) extended station sampling, (b) full commute sampling.
@@ -33,27 +33,27 @@ To assess particulate matter (PM2.5) concentrations in NYC’s subway system usi
 ## Key Findings
 
 **PM2.5 Concentrations:**
- 
+
   - **Average subway PM2.5:** ~105 µg/m³
   - **NYC outdoor average:** ~6.55 µg/m³
   - **EPA 24-hour standard:** 35 µg/m³
 
 **Worst Stations:**
-  
+
   - *2nd Ave (F line)*: 407.88 µg/m³
   - *Lexington Ave-63rd*: 113.19 µg/m³
 
 **Best Air Quality:**
- 
+
   - *SIR* and *W trains* (mostly aboveground): < EPA thresholds
 
 **Commuter Exposure:**
-  
+
   - 2-hour daily commute: 19% above daily EPA threshold
   - MTA workers (8 hrs underground): 246% above threshold
 
 **Train Car Behavior:**
-  
+
   - PM drops during transit, rises at stops due to door opening
 
 
