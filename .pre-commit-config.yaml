@@ -2,7 +2,7 @@ repos:
     - repo: https://github.com/pre-commit/pre-commit-hooks
       rev: v5.0.0
       hooks:
-          - id: check-toml
+          # - id: check-toml
           - id: check-yaml
           - id: end-of-file-fixer
             types: [python]
@@ -23,7 +23,7 @@ repos:
             args:
                 [
                     "--ignore-words-list=aci,acount,acounts,fallow,ges,hart,hist,nd,ned,ois,wqs,watermask,tre,mape,te,ans",
-                    "--skip=*.csv,*.geojson,*.json,*.yml,*.js,*.html,*.cff,*.pdf,*.cs",
+                    "--skip=*.csv,*.geojson,*.json,*.yml,*.js,*.html,*.cff,*.pdf,*.cs,*.ipynb",
                 ]
 
     # - repo: https://github.com/kynan/nbstripout

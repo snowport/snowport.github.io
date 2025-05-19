@@ -5,10 +5,6 @@ Welcome to my website.  I'm glad you're here!
 My passion lies in transforming complex datasets into actionable insights,
 enabling organizations to align growth with environmental stewardship.
 
-<!-- With experience designing scalable processes, resolving data
-inconsistencies, and uncovering critical trends, I excel in driving efficiency
-and optimizing outcomes in high-impact settings. -->
-
 ​Whether streamlining operations, informing sustainability strategies, or
 sparking innovation, I bring data to the forefront of decision-making.
 Committed to creating meaningful change, I'm dedicated to applying analytics

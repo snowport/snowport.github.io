@@ -18,28 +18,28 @@ To explore how rethinking **natural and human capital accounting** can inform fa
 ## Data & References
 
 - **Reports Cited:**
-  - World Bank’s *Changing Wealth of Nations 2018*
-  - McKinsey Global Institute’s *Reduced Dividends on Natural Capital*
-  - Nationally Determined Contributions (NDCs) from Morocco, Costa Rica, The Gambia
-  - Climate Action Tracker (CAT)
+    - World Bank’s *Changing Wealth of Nations 2018*
+    - McKinsey Global Institute’s *Reduced Dividends on Natural Capital*
+    - Nationally Determined Contributions (NDCs) from Morocco, Costa Rica, The Gambia
+    - Climate Action Tracker (CAT)
 
 
 ## Capital Stock Analysis
 
 - **Natural Capital undervalued** → exploited beyond replenishment (Tragedy of the Commons).
 - **Accounting Frameworks:**
-  - **EVA (Ecosystem Valuation & Accounting)** by Conservation International.
-  - **SEEA (System of Environmental-Economic Accounting)** – harmonized with GDP.
+    - **EVA (Ecosystem Valuation & Accounting)** by Conservation International.
+    - **SEEA (System of Environmental-Economic Accounting)** – harmonized with GDP.
 - **World Bank Findings:**
-  - Global wealth ↑ 66% from 1995–2014; human capital = 2/3 of global wealth.
-  - Natural capital = 9% globally, but nearly 50% of low-income countries' wealth.
+    - Global wealth ↑ 66% from 1995–2014; human capital = 2/3 of global wealth.
+    - Natural capital = 9% globally, but nearly 50% of low-income countries' wealth.
 
 ## Country Comparisons & Leadership
 
 - **Top Performers:**
-  - **Morocco:** 42–52% renewable energy by 2030; Noor solar plant = global model.
-  - **The Gambia:** Massive forest restoration + solar PV expansion.
-  - **Costa Rica:** 98% renewable electricity; moratorium on oil drilling.
+    - **Morocco:** 42–52% renewable energy by 2030; Noor solar plant = global model.
+    - **The Gambia:** Massive forest restoration + solar PV expansion.
+    - **Costa Rica:** 98% renewable electricity; moratorium on oil drilling.
 
 - **Lagging Nations:** Developed countries with high historical emissions.
 
@@ -47,12 +47,12 @@ To explore how rethinking **natural and human capital accounting** can inform fa
 ## Policy & Effort-Sharing Frameworks
 
 - **Equity Principles Used for Carbon Budget Allocation:**
-  - Grandfathering (GF)
-  - Per Capita Convergence (PCC, IEPC)
-  - Equal Cumulative Per Capita Emissions (ECPC)
-  - Ability to Pay (AP)
-  - Greenhouse Development Rights (GDR)
-  - Cost-Optimal (CO)
+    - Grandfathering (GF)
+    - Per Capita Convergence (PCC, IEPC)
+    - Equal Cumulative Per Capita Emissions (ECPC)
+    - Ability to Pay (AP)
+    - Greenhouse Development Rights (GDR)
+    - Cost-Optimal (CO)
 
 - **Conclusion:** Equity-driven models often result in **negative budgets** for wealthy nations, implying the need for urgent and ambitious policy reform.
 

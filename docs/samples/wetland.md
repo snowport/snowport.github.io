@@ -18,12 +18,12 @@ To examine how coastal wetlands versus urban coastlines impact eutrophication, p
 ## Study Area
 
 - **Location:** Gordon Pass between:
-  - **Naples (urban coast)**
-  - **Everglades (wetlands)**
+    - **Naples (urban coast)**
+    - **Everglades (wetlands)**
 - **Regions Analyzed (4km x 4km):**
-  - **Region A:** Offshore Urban (North)
-  - **Region B:** Gordon Pass (Middle / Control)
-  - **Region C:** Offshore Wetlands (South)
+    - **Region A:** Offshore Urban (North)
+    - **Region B:** Gordon Pass (Middle / Control)
+    - **Region C:** Offshore Wetlands (South)
 
 
 ## Methods
@@ -35,15 +35,15 @@ To examine how coastal wetlands versus urban coastlines impact eutrophication, p
 
 ## Key Findings
 
-1. **Seasonality:** Fall chlorophyll peaks observed consistently.
-2. **Bloom Year 2019:**
-   - Region A (urban): Highest chlorophyll levels.
-   - Region C (wetlands): Lowest levels.
-   - 2014 was a lower bloom year.
-3. **Wetland Effectiveness:**
-   - Region C had ~14% **less** chlorophyll than Region B.
-   - Region A had ~16% **more** than Region B.
-   - Wetlands likely help buffer nutrients and reduce HAB impact during extreme bloom events.
+- **Seasonality:** Fall chlorophyll peaks observed consistently.
+- **Bloom Year 2019:**
+     - Region A (urban): Highest chlorophyll levels.
+     - Region C (wetlands): Lowest levels.
+     - 2014 was a lower bloom year.
+- **Wetland Effectiveness:**
+     - Region C had ~14% **less** chlorophyll than Region B.
+     - Region A had ~16% **more** than Region B.
+     - Wetlands likely help buffer nutrients and reduce HAB impact during extreme bloom events.
 
 ## Conclusions
 
