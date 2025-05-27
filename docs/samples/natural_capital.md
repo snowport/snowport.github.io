@@ -1,8 +1,11 @@
 # Accounting for Natural Capital - Breaking the Carbon Budget
 *Winter 2020*
 
-![](https://carbonherald.com/wp-content/uploads/2021/09/enviromental-law-edited-1024x683-1.jpg)
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/The_2011%E2%80%932022_decadal_mean_components_of_the_global_carbon_budget.png/640px-The_2011%E2%80%932022_decadal_mean_components_of_the_global_carbon_budget.png)
 
+
+<!-- Alternative stock image (mangrove): -->
+<!-- https://www.asiapathways-adbi.org/wp-content/uploads/2024/09/Natural-Capital-Valuing-Nature-to-Protect-and-Restore-Ecosystem-Services-for-Sustainable-Development-.png -->
 
 ## Objective
 To explore how rethinking **natural and human capital accounting** can inform fairer and more sustainable global carbon budget policies, highlighting the need for equitable climate action through better asset valuation and policy alignment.

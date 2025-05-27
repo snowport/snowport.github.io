@@ -1,11 +1,15 @@
 # :material-typewriter: Samples
 
-## Overview
 This collection of applied research projects spans air and water quality, climate policy, and ecological accounting. Through data-driven analysis, remote sensing, and policy evaluation, each study explores sustainable development challenges and proposes actionable solutions for decision-makers, urban planners, and environmental managers.
 
 !!! abstract "Program: Columbia University, MS in Sustainability Science (2020–2021)"
 
 ---
+
+## Brief Overviews
+
+Toggle between tabs
+
 === "🚇 Capstone"
 
     :material-file: [**PM2.5 in NYC Subway System: Air Quality Analysis**](capstone.md)

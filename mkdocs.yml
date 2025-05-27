@@ -101,7 +101,7 @@ nav:
   - Home: index.md
   - CV: cv.md
   - Samples:
-    - Summary: samples/summary.md
+    - Samples Summary: samples/summary.md
     - Capstone: samples/capstone.md
     - WCI: samples/wci.md
     - Wetland: samples/wetland.md
