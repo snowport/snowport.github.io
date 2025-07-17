@@ -1,7 +1,5 @@
 # :material-home: Home
 
-Welcome to my website.  I'm glad you're here!
-
 My passion lies in transforming complex datasets into actionable insights,
 enabling organizations to align growth with environmental stewardship.
 
@@ -11,6 +9,8 @@ Committed to creating meaningful change, I'm dedicated to applying analytics
 to help industries operate sustainably and innovate strategically.
 
 Let's [connect](https://www.linkedin.com/in/noah-portman/) and collaborate on impactful, data-driven solutions.
+
+-- Noah
 
 <div class = "image-caption-wrapper">
     <img
