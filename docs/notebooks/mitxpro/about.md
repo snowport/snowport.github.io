@@ -1,4 +1,4 @@
-# :simple-docsdotrs: MITx PRO
+# :simple-docsdotrs: MIT xPRO
 
 
 This portfolio showcases projects and insights from the MIT xPRO Professional Certificate in Data Science and Analytics program.
