@@ -14,7 +14,7 @@ Let's [connect](https://www.linkedin.com/in/noah-portman/) and collaborate on im
 
 <div class = "image-caption-wrapper">
     <img
-        src="https://media.licdn.com/dms/image/v2/D5603AQEGH_L2gfd04A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1729716600472?e=1758153600&v=beta&t=bEAqo6LDu1MNqwths1hASs7TAVRwQHB8RfMMi4qOS5s"
+        src="https://media.licdn.com/dms/image/v2/D5603AQEGH_L2gfd04A/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1729716600472?e=1761177600&v=beta&t=3ti5H7D2W7M0Yz-31QS8CTWfo4Bt6_OtQUyImCIc1z4"
         alt="Circle Image"
         style="width:120px; height:120px; border-radius:50%; object-fit:cover;"
         class="hover-effect">
